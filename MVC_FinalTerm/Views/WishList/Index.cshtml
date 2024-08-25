@@ -1,0 +1,78 @@
+﻿@model IEnumerable<WishListItems>
+
+@{
+    ViewData["Title"] = "Wishlist";
+    Layout = "_Normal";
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+            <li>Wishlist</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+<!-- cart_section - start -->
+<section class="cart_section section_space">
+    <div class="container">
+        @if (Model != null && Model.Any())
+        {
+            <div class="cart_table">
+                <table class="table mb-0">
+                    <thead>
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th class="text-center">PRICE</th>
+                            <th class="text-center">STOCK STATUS</th>
+                            <th class="text-center">ADD TO CART</th>
+                            <th class="text-center">REMOVE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="cart_product">
+                                        <img src="~/frontend/images/products/@item.Image" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                        <h3>
+                                            <a asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductId">
+                                                @item.ProductName
+                                            </a>
+                                        </h3>
+
+                                    </div>
+                                </td>
+                                <td class="text-center"><span class="price_text">@item.Price</span></td>
+                                <td class="text-center"><span class="price_text @(item.StockStatus == "In Stock" ? "text-success" : "text-danger")">@item.StockStatus</span></td>
+                                <td class="text-center">
+                                    <a asp-controller="Cart" asp-action="Add" asp-route-productId="@item.ProductId" class="btn btn_gray">
+                                        Add To Cart
+                                    </a>
+                                </td>
+                                <td class="text-center">
+                                    <form asp-controller="WishList" asp-action="Remove" method="post">
+                                        <input type="hidden" name="productId" value="@item.ProductId" />
+                                        <button type="submit" class="btn btn_danger">
+                                            <i class="fal fa-trash-alt"></i>
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info">
+                No items in your wishlist.
+            </div>
+        }
+    </div>
+</section>
+<!-- cart_section - end -->

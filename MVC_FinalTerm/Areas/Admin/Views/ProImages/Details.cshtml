@@ -1,0 +1,32 @@
+﻿@model MVC_FinalTerm.Models.ProductImage
+
+@{
+    ViewData["Title"] = "View Image Details";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">View Image Details</h1>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/frontend/images/products/@Model.Name" alt="Image" class="img-fluid" />
+                </div>
+                <div class="col-md-8">
+                    <dl class="row">
+                        <dt class="col-sm-3">Product Name</dt>
+                        <dd class="col-sm-9">@Model.Product.Name</dd>
+
+                        <dt class="col-sm-3">Image Name</dt>
+                        <dd class="col-sm-9">@Model.Name</dd>
+                    </dl>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

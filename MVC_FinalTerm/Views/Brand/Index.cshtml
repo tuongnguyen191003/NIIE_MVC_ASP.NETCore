@@ -1,0 +1,227 @@
+﻿@model IEnumerable<ProductModel>
+@{
+    ViewData["Title"] = "Brand";
+    Layout = "_ProductGrid";
+}
+
+<div class="filter_topbar">
+    <div class="row align-items-center">
+        <div class="col col-md-4 col-sm-4">
+            <ul class="layout_btns nav" role="tablist">
+                <li role="presentation">
+                    <button class="active" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                        <i class="fal fa-bars"></i>
+                    </button>
+                </li>
+                <li role="presentation">
+                    <button data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                        <i class="fal fa-th-large"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col col-md-4 col-sm-4">
+            <form action="#">
+                <div class="select_option clearfix">
+                    <select>
+                        <option data-display="Defaul Sorting">Select Your Option</option>
+                        <option value="1">Sorting By Name</option>
+                        <option value="2">Sorting By Price</option>
+                        <option value="3">Sorting By Size</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+
+        <div class="col col-md-4 col-sm-4">
+            <div class="result_text">Showing 1-12 of @ViewData["ProductCount"] Results</div>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="home" role="tabpanel">
+        <div class="product_wrap">
+            @foreach (var item in Model)
+            {
+                <div class="product_layout1">
+                    @if (item.StatusName == "Hot")
+                    {
+                        <div class="item_badge hot_badge">
+                            <span>HOT</span>
+                        </div>
+                    }
+                    else if (item.StatusName == "New")
+                    {
+                        <div class="item_badge new_badge">
+                            <span>NEW</span>
+                        </div>
+                    }
+                    else if (item.StatusName == "Sales")
+                    {
+                        <div class="item_badge sale_badge">
+                            <span>SALE</span>
+                        </div>
+                    }
+                    <div class="item_image">
+                        <img src="~/frontend/images/products/@item.Image" alt="@item.Name">
+                        <img src="~/frontend/images/products/@item.Image" alt="@item.Name">
+                    </div>
+                    <div class="item_content">
+                        <h3 class="item_title">
+                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">@item.Name</a>
+                        </h3>
+
+                        <ul class="rating_star ul_li">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                // Kiểm tra xem Rating có lớn hơn hoặc bằng i không
+                                if (item.Reviews.Any(r => r.Rating >= i))
+                                {
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                }
+                                else
+                                {
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                }
+                            }
+                        </ul>
+                        <div class="item_price">
+                            <span>@item.Price</span>
+                            <del>@item.OldPrice</del>
+                        </div>
+                        <ul class="item_btns_group ul_li">
+                            <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add" asp-route-productId="@item.Id">Add To Cart</a></li>
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <li>
+                                    <form asp-controller="WishList" asp-action="Add" method="post">
+                                        <input type="hidden" name="productId" value="@item.Id" />
+                                        <button type="submit" class="btn btn-link p-0">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a href="@Url.Action("Login", "Account")" class="btn btn-link p-0" style="border: none; background: none;">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+
+        </div>
+        <!--Phân trang-->
+        @* <div class="pagination_wrap">
+        <ul class="pagination_nav ul_li_right">
+        <li class="active"><a href="#!">1</a></li>
+        <li><a href="#!">2</a></li>
+        <li><a href="#!">3</a></li>
+        <li class="prev_btn"><a href="#!"><i class="fa-regular fa-angle-left"></i></a></li>
+        <li class="next_btn"><a href="#!"><i class="fa-regular fa-angle-right"></i></a></li>
+        </ul>
+        </div> *@
+    </div>
+
+    <div class="tab-pane fade" id="profile" role="tabpanel">
+        <div class="product_layout2_wrap">
+            @foreach (var item in Model)
+            {
+                <div class="product_layout2">
+                    <div class="item_image">
+                        @if (item.StatusName == "Hot")
+                        {
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                        }
+                        else if (item.StatusName == "New")
+                        {
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                        }
+                        else if (item.StatusName == "Sales")
+                        {
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                        }
+                        <a class="image_wrap" href="shop_details.html">
+                            <img src="~/frontend/images/products/@item.Image" alt="@item.Name">
+                        </a>
+                    </div>
+                    <div class="item_content">
+                        <h3 class="item_title">
+                            <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">@item.Name</a>
+                        </h3>
+                        <ul class="rating_star ul_li">
+                            @for (int i = 1; i <= 5; i++)
+                            {
+                                // Kiểm tra xem Rating có lớn hơn hoặc bằng i không
+                                if (item.Reviews.Any(r => r.Rating >= i))
+                                {
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                }
+                                else
+                                {
+                                    <li><i class="fa-regular fa-star"></i></li>
+                                }
+                            }
+                        </ul>
+                        <p>
+                            @item.Description
+                        </p>
+                        <div class="item_price">
+                            <span>@item.Price</span>
+                            <del>@item.OldPrice</del>
+                        </div>
+                        <ul class="item_btns_group ul_li">
+                            <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add" asp-route-productId="@item.Id">Add To Cart</a></li>
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <li>
+                                    <form asp-controller="WishList" asp-action="Add" method="post">
+                                        <input type="hidden" name="productId" value="@item.Id" />
+                                        <button type="submit" class="btn btn-link p-0">
+                                            <i class="fas fa-heart"></i>
+                                        </button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a href="@Url.Action("Login", "Account")" class="btn btn-link p-0" style="border: none; background: none;">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+        <!--Phân trang-->
+        @* <div class="pagination_wrap">
+        <ul class="pagination_nav ul_li_right">
+        <li class="active"><a href="#!">1</a></li>
+        <li><a href="#!">2</a></li>
+        <li><a href="#!">3</a></li>
+        <li class="prev_btn"><a href="#!"><i class="fa-regular fa-angle-left"></i></a></li>
+        <li class="next_btn"><a href="#!"><i class="fa-regular fa-angle-right"></i></a></li>
+        </ul>
+        </div> *@
+    </div>
+</div>

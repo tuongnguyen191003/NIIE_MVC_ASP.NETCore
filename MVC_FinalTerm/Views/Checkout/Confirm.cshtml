@@ -1,0 +1,61 @@
+﻿@model MVC_FinalTerm.Models.OrderModel
+
+@{
+    ViewData["Title"] = "Order Confirmation";
+    Layout = "_Normal";
+}
+
+<div class="container">
+    <div class="order-confirmation">
+        <h2>Thank you for your order!</h2>
+        <p>Your order number is: <strong>@Model.Id</strong></p>
+        <p>Order Date: <strong>@Model.OrderDate.ToString("dd MMM yyyy")</strong></p>
+
+        <h3>Order Details</h3>
+        <ul>
+            <li><strong>Name:</strong> @Model.FirstName @Model.LastName</li>
+            <li><strong>Email:</strong> @Model.Email</li>
+            <li><strong>Phone:</strong> @Model.Telephone</li>
+            <li><strong>Address:</strong> @Model.Address, @Model.Town</li>
+            <li><strong>Payment Method:</strong> @Model.PaymentMethod</li>
+        </ul>
+
+        <h3>Items:</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.OrderDetails != null && Model.OrderDetails.Any())
+                {
+                    @foreach (var item in Model.OrderDetails)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.Price.ToString("C")</td>
+                            <td>@(item.Quantity * item.Price).ToString("C")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">No order details found.</td>
+                    </tr>
+                }
+
+
+            </tbody>
+        </table>
+
+        <p>Total Amount: <strong>@Model.OrderDetails.Sum(x => x.Quantity * x.Price).ToString("C")</strong></p>
+
+        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
+    </div>
+</div>

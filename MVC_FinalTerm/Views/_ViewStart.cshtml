@@ -1,0 +1,14 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUserModel> _userManager
+
+@{
+    if (User.Identity.IsAuthenticated)
+    {
+        var currentUser = await _userManager.GetUserAsync(User);
+        ViewBag.CurrentUser = currentUser;
+    }
+}

@@ -1,0 +1,194 @@
+﻿@using MVC_FinalTerm.Models.ViewModels
+@model CheckoutViewModel
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "_Normal";
+}
+
+<!-- breadcrumb_section - start -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a href="index.html">Home</a></li>
+            <li>Check Out</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end -->
+<!-- checkout_section - start -->
+@if (Model.CartItems == null || !Model.CartItems.Any())
+{
+    <div class="alert alert-warning">
+        Your cart is empty.
+    </div>
+}
+else
+{
+    <section class="checkout_section section_space">
+        <div class="container">
+            <form asp-action="PlaceOrder" asp-controller="Checkout" method="post">
+                <div class="form_area">
+                    <div class="reg_coupon_item">
+                        <div class="content_wrap bg_default_yellow">
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#login_collapse" aria-expanded="false" aria-controls="login_collapse">
+                                <i class="fas fa-info-circle"></i>
+                                <strong>Returning customer?</strong> Click here to login
+                            </button>
+                        </div>
+                        <div class="collapse" id="login_collapse">
+                            <div class="card card-body">
+                                <div class="row">
+                                    <div class="col col-md-6 col-sm-6">
+                                        <div class="form_item">
+                                            <input type="email" name="email" placeholder="Your Email">
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6 col-sm-6">
+                                        <div class="form_item">
+                                            <input type="password" name="password" placeholder="Your Password">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btns_group">
+                                    <div class="checkbox_item">
+                                        <input id="remember_me" type="checkbox">
+                                        <label for="remember_me">Remember Me</label>
+                                    </div>
+                                    <button type="submit" class="btn btn_primary">Login Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="reg_coupon_item">
+                        <div class="content_wrap bg_default_blue">
+                            <button type="button" data-bs-toggle="collapse" data-bs-target="#coupon_collapse" aria-expanded="false" aria-controls="coupon_collapse">
+                                <i class="fas fa-info-circle"></i>
+                                <strong>Have a coupon? </strong> Click here to enter your code
+                            </button>
+                        </div>
+                        <div class="collapse" id="coupon_collapse">
+                            <div class="card card-body">
+                                <div class="form_item">
+                                    <input type="text" name="coupon" placeholder="Coupon Code">
+                                </div>
+                                <button type="submit" class="btn btn_primary">Apply Coupon</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout_widget bg-light">
+                    <h3 class="checkout_widget_title">Billing Details</h3>
+
+                    <div class="row">
+                        <div class="col col-md-6 col-sm-6">
+                            <div class="form_item">
+                                <h4 class="input_title">First Name *</h4>
+                                <input type="text" name="FirstName" asp-for="FirstName" value="@Model.FirstName" placeholder="First Name *" required>
+                            </div>
+                        </div>
+                        <div class="col col-md-6 col-sm-6">
+                            <div class="form_item">
+                                <h4 class="input_title">Last Name *</h4>
+                                <input type="text" name="LastName" asp-for="LastName" value="@Model.LastName" placeholder="Last Name *" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form_item">
+                        <h4 class="input_title">Address *</h4>
+                        <input type="text" name="Address" asp-for="Address" value="@Model.Address" placeholder="Street Address" required>
+                        <input type="text" name="Apartmentaddress" placeholder="Apartment, suite, unit etc. (optional)">
+                    </div>
+
+                    <div class="form_item">
+                        <h4 class="input_title">Town / City *</h4>
+                        <input type="text" name="Town" asp-for="Town" value="@Model.Town" placeholder="Town / City *" required>
+                    </div>
+
+                    <div class="col col-md-6 col-sm-6">
+                        <div class="form_item">
+                            <h4 class="input_title">Postcode / Zip</h4>
+                            <input type="text" name="Postcode" asp-for="Postcode" value="@Model.Postcode" placeholder="Postcode / Zip">
+                        </div>
+                    </div>
+                </div>
+                <div class="form_item mb-5">
+                    <h4 class="input_title">Contact Info *</h4>
+                    <input type="email" name="Email" asp-for="Email" value="@Model.Email" placeholder="Email Address" required>
+                    <input type="tel" name="Telephone" asp-for="Telephone" value="@Model.Telephone" placeholder="Phone Number" required>
+                </div>
+                <div class="checkout_widget">
+                    <h3 class="checkout_widget_title">Your Order</h3>
+                    <div class="cart_table checkout_table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>PRODUCT</th>
+                                    <th>PRICE</th>
+                                    <th>QUANTITY</th>
+                                    <th>TOTAL</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.CartItems)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="cart_product">
+                                                <img src="~/frontend/images/products/@item.Image" alt="@item.ProductName">
+                                                <h3>@item.ProductName</h3>
+                                            </div>
+                                        </td>
+                                        <td><span class="price_text">@item.Price</span></td>
+                                        <td><strong class="quantity_count">@item.Quantity</strong></td>
+                                        <td><span class="price_text">@(item.Price * item.Quantity)</span></td>
+                                    </tr>
+                                }
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><strong>Cart Subtotal</strong></td>
+                                    <td><strong>@Model.CartItems.Sum(x => x.Quantity * x.Price)</strong></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><strong>Shipping and Handling</strong></td>
+                                    <td><strong class="free_text">Free</strong></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td><strong>Order Total</strong></td>
+                                    <td><strong class="total_text">@Model.GrandTotal</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="checkout_payment_method">
+                    <ul class="ul_li_block">
+                        <li>
+                            <div class="radio_item">
+                                <input id="cod" type="radio" name="PaymentMethod" value="COD" checked>
+                                <label for="cod">Thanh toán khi nhận hàng (COD)</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio_item">
+                                <input id="vnpay" type="radio" name="PaymentMethod" value="VNPay">
+                                <label for="vnpay">VN Pay</label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="load_more">
+                    <button type="submit" class="btn btn_primary w-100">Place Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+}
+<!-- checkout_section - end -->

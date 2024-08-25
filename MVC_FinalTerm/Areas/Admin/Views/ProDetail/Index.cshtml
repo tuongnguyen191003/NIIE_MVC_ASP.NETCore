@@ -1,0 +1,46 @@
+﻿@model IEnumerable<MVC_FinalTerm.Models.DetailDescription>
+
+@{
+    ViewData["Title"] = "Product Descriptions";
+    Layout = "_Layout";
+}
+
+<h2>Product Descriptions</h2>
+<a asp-action="Create" asp-route-productId="@ViewBag.ProductId" class="btn btn-primary mb-2">Create New Description</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Content</th>
+            <th>Image</th>
+            <th>Video URL</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Content</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Image))
+                    {
+                        <img src="~/frontend/images/descriptions/@item.Image" alt="Description Image" style="width: 150px; height: auto;" />
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }
+                </td>
+                <td>@item.VideoUrl</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">View Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Product" class="btn btn-secondary mt-3">Back to Products</a>
+
+

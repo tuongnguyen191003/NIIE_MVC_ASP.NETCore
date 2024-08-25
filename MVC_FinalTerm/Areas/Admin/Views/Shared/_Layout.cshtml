@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> Home | CyberCore</title>
+    <link rel="shortcut icon" href="~/assets/images/logo/favourite-big-size-icon-removebg.png">
+
+    <!-- fraimwork - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+
+    <!-- icon font - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/stroke-gap-icons.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/icofont.css">
+
+    <!-- animation - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/animate.css">
+
+    <!-- carousel - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick-theme.css">
+
+    <!-- popup - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/magnific-popup.css">
+
+    <!-- jquery-ui - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/jquery-ui.css">
+
+    <!-- select option - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/nice-select.css">
+
+    <!-- custom - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+
+    <!--SB Admin-->
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/sbadmin/css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand ps-3" asp-controller="Dashboard" asp-action="Index">CyberCore Shop</a>
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-user fa-fw"></i> Hello, @User.Identity.Name
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#!">Settings</a></li>
+                    <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <form asp-area="Admin" asp-controller="User" asp-action="Logout" method="post">
+                            <button type="submit" class="dropdown-item">Logout</button>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Core</div>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Publisher") || User.IsInRole("Blogger"))
+                        {
+                            <a class="nav-link" asp-area="Admin" asp-controller="Dashboard" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                Dashboard
+                            </a>
+                        }
+
+                        <div class="sb-sidenav-menu-heading">Management</div>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Publisher"))
+                        {
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                                Product
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">List Product</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="ProDetail" asp-action="Index">Product Description</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="ProSpecification" asp-action="Index">Product Specification</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="ProImages" asp-action="Index">Product Images</a>
+                                    <a class="nav-link" asp-area="Admin" asp-controller="ProReviews" asp-action="Index">Product Reviews</a>
+                                </nav>
+                            </div>
+                        }
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("Publisher"))
+                        {
+                            <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                                Brands
+                                <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                                <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                    <a class="nav-link collapsed" asp-area="Admin" asp-controller="Brand" asp-action="Index">List Brand</a>
+                                </nav>
+                            </div>
+                        }
+
+                        <div class="sb-sidenav-menu-heading">Category</div>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Publisher"))
+                        {
+                            <a class="nav-link" asp-area="Admin" asp-controller="Category" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                                List Categories
+                            </a>
+                        }
+
+                        @if (User.IsInRole("Blogger"))
+                        {
+                            <a class="nav-link" asp-area="Admin" asp-controller="Blogger" asp-action="Index">
+                                <div class="sb-nav-link-icon"><i class="fas fa-blog"></i></div>
+                                Blogger Section
+                            </a>
+                        }
+                    </div>
+                </div>
+                <div class="sb-sidenav-footer">
+                    <div class="small">Logged in as:</div>
+                    CyberCore
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                @await Html.PartialAsync("_NotificationPartial")
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+    <!-- Scripts -->
+    </div>
+    <!-- body_wrap - end -->
+    <!-- fraimwork - jquery include -->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <!-- carousel - jquery include -->
+    <script src="~/assets/js/slick.min.js"></script>
+
+    <!-- popup - jquery include -->
+    <script src="~/assets/js/magnific-popup.min.js"></script>
+
+    <!-- jquery-ui - jquery include -->
+    <script src="~/assets/js/jquery-ui.js"></script>
+
+    <!-- off canvas sidebar - jquery include -->
+    <script src="~/assets/js/mCustomScrollbar.js"></script>
+
+    <!-- select option - jquery include -->
+    <script src="~/assets/js/nice-select.min.js"></script>
+
+    <!-- countdown timer - jquery include -->
+    <script src="~/assets/js/countdown.js"></script>
+
+    <!-- counter up - jquery include -->
+    <script src="~/assets/js/counterup.min.js"></script>
+    <script src="~/assets/js/waypoints.min.js"></script>
+    <script src="~/backend/js/site.js"></script>
+
+    <!-- custom - jquery include -->
+    <script src="~/assets/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
+    <script>
+        $(function () {
+            var message = '@TempData["success"]';
+            if (message != '') {
+                Swal.fire(message);
+            }
+            var messageError = '@TempData["error"]';
+            if (messageError != '') {
+                Swal.fire(messageError);
+            }
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="~/sbadmin/js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="~/sbadmin/assets/demo/chart-area-demo.js"></script>
+    <script src="~/sbadmin/assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+    <script src="~/sbadmin/js/datatables-simple-demo.js"></script>
+</body>
+
+</html>

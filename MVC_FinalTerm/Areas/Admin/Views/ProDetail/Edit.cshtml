@@ -1,0 +1,42 @@
+﻿@model MVC_FinalTerm.Models.DetailDescription
+
+@{
+    ViewData["Title"] = "Edit Description";
+    Layout = "_Layout";
+}
+
+<h2>Edit Description</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ProductId" />
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ImageUpload">Upload New Image</label>
+        <input asp-for="ImageUpload" type="file" class="form-control-file" />
+        <span asp-validation-for="ImageUpload" class="text-danger"></span>
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img src="~/frontend/images/descriptions/@Model.Image" alt="Description Image" style="width: 150px; height: auto;" />
+        }
+    </div>
+    <div class="form-group">
+        <label asp-for="VideoUrl"></label>
+        <input asp-for="VideoUrl" class="form-control" />
+        <span asp-validation-for="VideoUrl" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Save Changes</button>
+    <a asp-action="Index" asp-route-productId="@Model.ProductId" class="btn btn-secondary ml-2">Back to List</a>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Content');
+    </script>
+}

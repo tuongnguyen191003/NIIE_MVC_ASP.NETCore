@@ -1,0 +1,37 @@
+﻿@model MVC_FinalTerm.Models.OrderModel
+
+@{
+    ViewData["Title"] = "Order Details";
+    Layout = "_Layout";
+}
+
+<section class="order_details_section section_space">
+    <div class="container">
+        <h2>Order Details (Order ID: @Model.Id)</h2>
+        <p>Order Date: @Model.OrderDate.ToString("MM/dd/yyyy")</p>
+        <p>Payment Method: @Model.PaymentMethod</p>
+
+        <h3>Order Items</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.ProductName</td>
+                        <td>@item.Quantity</td>
+                        <td>@item.Price.ToString("C")</td>
+                        <td>@(item.Quantity * item.Price)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

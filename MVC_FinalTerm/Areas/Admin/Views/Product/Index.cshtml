@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ProductModel>
+
+@{
+    ViewData["Title"] = "List Product";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">List Product</h1>
+            <a asp-action="Create" class="btn btn-primary mb-2">Create New</a>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        @* <th>Description</th> *@
+                        <th>Price</th>
+                        <th>OldPrice</th>
+                        <th>Color</th>
+                        <th>Stock</th>
+                        <th>Status</th>
+                        @* <th>Series</th> *@
+                        <th>Brand</th>
+                        @* <th>Category</th> *@
+                        <th>Image</th>
+                        <th>Manage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            @* <td>@item.Description</td> *@
+                            <td>@item.Price</td>
+                            <td>@item.OldPrice</td>
+                            <td>@item.Color.Name</td>
+                            <td>@item.StockQuantity</td>
+                            <td>@(item.IsOnStatus ? "Show" : "Hide")</td>
+                            <td>@item.Brand.Name</td>
+                            
+                            <td><img src="~/frontend/images/products/@item.Image" alt="@item.Name" style="width: 150px; height: auto;" /></td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">View Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm confirmDeletion">Remove</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

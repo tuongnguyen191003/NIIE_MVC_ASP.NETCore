@@ -1,0 +1,103 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_Layout";
+}
+<!-- breadcrumb_section - start
+       ================================================== -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+            <li>Login</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end
+================================================== -->
+<section class="login_section section_space">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <ul class="nav register_tabnav ul_li_center">
+                    <li>
+                        <button>
+                            Login
+                        </button>
+                    </li>
+                </ul>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <form asp-action="Login" method="post">
+                    <div class="form_item_wrap">
+                        <h3 class="input_title">User Name/Email*</h3>
+                        <div class="form_item">
+                            <label for="username_input"><i class="fas fa-user"></i></label>
+                            <input id="username_input" type="text" asp-for="Username" placeholder="User Name">
+                            <span asp-validation-for="Username" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form_item_wrap">
+                        <h3 class="input_title">Password*</h3>
+                        <div class="form_item">
+                            <label for="password_input"><i class="fas fa-lock"></i></label>
+                            <input id="password_input" type="password" asp-for="Password" placeholder="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="form_item_wrap">
+                        <div class="forget_pass">
+                            <a href="#!">Forget Password?</a>
+                        </div>
+                    </div>
+
+                    <div class="text-start">
+                        <button type="submit" class="btn btn_secondary">Login Now</button>
+                    </div>
+                    
+                    
+                   
+                </form>
+                <div class="social-login">
+                    <!-- Google Login Button - outside form or with formnovalidate -->
+                    <form asp-action="GoogleLogin" method="post">
+                        <button type="submit" class="btn btn-danger" formnovalidate>Continue With Google</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+<style>
+    .social-login {
+        margin-top: 20px;
+    }
+
+    .btn-social {
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+    .btn-google {
+        background-color: #db4437; /* Màu đỏ của Google */
+    }
+
+        .btn-google:hover {
+            background-color: #c23321;
+        }
+
+</style>
