@@ -1,0 +1,92 @@
+﻿@model MVC_FinalTerm.Models.BrandModel
+
+@{
+    ViewData["Title"] = "View Details";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">View Details</h1>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="~/frontend/images/brands/@Model.Image" alt="@Model.Name" class="img-fluid" />
+                </div>
+                <div class="col-md-8">
+                    <dl class="row">
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Name)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Description)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Description)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Slug)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Slug)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Status)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.Status)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.Image)
+                        </dt>
+                        <dd class="col-sm-9">
+                            <img src="~/frontend/images/brands/@Model.Image" alt="@Model.Name" style="width: 200px; height: auto;" />
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.CreateDate)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.CreateDate)
+                        </dd>
+                        <dt class="col-sm-3">
+                            @Html.DisplayNameFor(model => model.CreateUpdate)
+                        </dt>
+                        <dd class="col-sm-9">
+                            @Html.DisplayFor(model => model.CreateUpdate)
+                        </dd>
+                    </dl>
+                    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-group.row {
+        margin-bottom: 15px; /* Khoảng cách giữa các hàng */
+    }
+
+    form {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .col-form-label {
+        padding-right: 10px;
+    }
+
+    .form-control, .form-control-file, .form-check-input {
+        padding: 10px;
+    }
+
+    .form-check-label {
+        margin-left: 5px;
+    }
+</style>

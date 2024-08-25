@@ -1,0 +1,59 @@
+﻿@model MVC_FinalTerm.Models.ProductImage
+
+@{
+    ViewData["Title"] = "Add New Product Image";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">Add New Product Image</h1>
+            <form asp-action="Create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-group row">
+                    <label asp-for="ProductId" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <select asp-for="ProductId" class="form-control" asp-items="ViewBag.ProductId"></select>
+                        <span asp-validation-for="ProductId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div id="imageUploadContainer" class="form-group row">
+                    <label class="col-sm-2 col-form-label">Upload Images</label>
+                    <div class="col-sm-10">
+                        <input name="ImageUploads" type="file" class="form-control-file" />
+                        <span asp-validation-for="ImageUploads" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <button type="button" id="addMoreImages" class="btn btn-secondary mb-2">Add More Images</button>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <input type="submit" value="Add Images" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#addMoreImages").click(function () {
+                $("#imageUploadContainer").append('<div class="col-sm-10 offset-sm-2"><input name="ImageUploads" type="file" class="form-control-file" /></div>');
+            });
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

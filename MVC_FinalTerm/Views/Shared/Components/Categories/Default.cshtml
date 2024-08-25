@@ -1,0 +1,14 @@
+﻿<!--brand-->
+@model IEnumerable<CategoryModel>
+<aside class="sidebar_section ps-0 mt-lg-0">
+<div class="sb_widget sb_category">
+    <h3 class="sb_widget_title">Categories</h3>
+@foreach(var item in Model)
+{
+        <!--View component-->
+            <ul class="sb_category_list ul_li_block">
+            <li><a asp-action="Index" asp-controller="Category" asp-route-Slug="@item.Slug">@item.Name<span></span></a></li>
+            </ul>
+}
+    </div>
+</aside>

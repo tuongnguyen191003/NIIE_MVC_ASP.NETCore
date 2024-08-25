@@ -1,0 +1,30 @@
+﻿@model MVC_FinalTerm.Models.DetailDescription
+
+@{
+    ViewData["Title"] = "Description Details";
+    Layout = "_Layout";
+}
+
+<h2>Description Details</h2>
+
+<div class="form-group">
+    <label>Content:</label>
+    <div>@Model.Content</div>
+</div>
+<div class="form-group">
+    <label>Image:</label>
+    @if (!string.IsNullOrEmpty(Model.Image))
+    {
+        <img src="~/frontend/images/descriptions/@Model.Image" alt="Description Image" style="width: 150px; height: auto;" />
+    }
+    else
+    {
+        <span>No Image</span>
+    }
+</div>
+<div class="form-group">
+    <label>Video URL:</label>
+    <div>@Model.VideoUrl</div>
+</div>
+<a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+<a asp-action="Index" asp-route-productId="@Model.ProductId" class="btn btn-secondary ml-2">Back to List</a>

@@ -1,0 +1,184 @@
+﻿
+@model CartItemViewModel
+
+@{
+    ViewData["Title"] = "Cart";
+    Layout = "_Normal";
+}
+
+<!-- breadcrumb_section - start
+        ================================================== -->
+<div class="breadcrumb_section">
+    <div class="container">
+        <ul class="breadcrumb_nav ul_li">
+            <li><a href="index.html">Home</a></li>
+            <li>Cart</li>
+        </ul>
+    </div>
+</div>
+<!-- breadcrumb_section - end
+================================================== -->
+<!-- cart_section - start
+================================================== -->
+<section class="cart_section section_space">
+    <div class="container">
+        <div class="cart_update_wrap">
+            <p class="mb-0"><i class="fal fa-check-square"></i> Shipping costs updated.</p>
+        </div>
+
+        <div class="cart_table">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>PRODUCT</th>
+                        <th class="text-center">PRICE</th>
+                        <th class="text-center">QUANTITY</th>
+                        <th class="text-center">TOTAL</th>
+                        <th class="text-center">REMOVE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.CartItems.Count > 0)
+                    {
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <tr>
+                                <td>
+                                    <div class="cart_product">
+                                        <img src="~/frontend/images/products/@item.Image" alt="@item.ProductName">
+                                        <h3><a asp-controller="Product" asp-action="Details" asp-route-Id="@item.ProductId">@item.ProductName</a></h3>
+                                    </div>
+                                </td>
+                                <td class="text-center"><span class="price_text">@item.Price</span></td>
+                                <td class="text-center">
+                                    <div class="quantity_input">
+                                        <a asp-controller="Cart" asp-action="Decrease" asp-route-id="@item.ProductId" type="button" class="input_number_decrement">
+                                            <i class="fal fa-minus"></i>
+                                        </a>
+                                        <input class="input_number" type="text" value="@item.Quantity" readonly>
+                                        <a asp-controller="Cart" asp-action="Increase" asp-route-id="@item.ProductId" type="button" class="input_number_increment">
+                                            <i class="fal fa-plus"></i>
+                                        </a>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <span class="price_text">
+                                        @(item.Price * item.Quantity)
+                                    </span>
+                                </td>
+                                @* <td class="text-center">
+                                    <span class="price_text">
+                                        @item.Discount.ToString("C")
+                                    </span>
+                                </td> *@
+                                <td class="text-center"><a asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId" type="button" class="remove_btn"><i class="fal fa-trash-alt"></i></a></td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <div class="empty_cart_content text-center">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-5 col-md-7">
+                                    <div class="empty_cart_image">
+                                        <img src="~/frontend/images/not product in cart.png" alt="Getyootech - Getyootech - Gadgets Ecommerce Site Template">
+                                    </div>
+                                    <h2>Your Cart is Empty. Let's Get Some Shopping</h2>
+                                    <a class="btn btn_primary" asp-controller="Product" asp-action="Index">
+                                        <i class="fa-regular fa-arrow-left-long"></i>
+                                        Continue shopping
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+
+        <div class="cart_btns_wrap">
+            <div class="row">
+                <div class="col col-lg-6">
+                    @* <form asp-action="ApplyCoupon" asp-controller="Cart" id="couponForm">
+                        <div class="coupon_form form_item mb-0">
+                            <input type="text" name="coupon" placeholder="Coupon Code..." value="@TempData["coupon"]">
+                            <button type="submit" class="btn btn_primary">Apply Coupon</button>
+                            <div class="info_icon">
+                                <i class="fas fa-info-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="Your Info Here"></i>
+                            </div>
+                        </div>
+                    </form> *@
+                </div>
+
+                <div class="col col-lg-6">
+                    <ul class="btns_group ul_li_right">
+                        <li><a asp-controller="Cart" asp-action="Clear" type="button" class="btn border_black" id="updateCartButton">Clear</a></li>
+                        <li><a class="btn btn_dark" asp-action="ProceedToCheckout" asp-controller="Cart">Proceed To Checkout</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @* <div class="col col-lg-6">
+                <div class="calculate_shipping">
+                    <h3 class="wrap_title">Calculate Shipping</h3>
+                    <form action="#">
+                        <div class="select_option clearfix">
+                            <select>
+                                <option data-display="Select Your Currency">Select Your Option</option>
+                                <option value="1" selected>United Kingdom (UK)</option>
+                                <option value="2">United Kingdom (UK)</option>
+                                <option value="3">United Kingdom (UK)</option>
+                                <option value="4">United Kingdom (UK)</option>
+                                <option value="5">United Kingdom (UK)</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="form_item">
+                                    <input type="text" name="location" placeholder="State / Country">
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="form_item">
+                                    <input type="text" name="postalcode" placeholder="Postcode / ZIP">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn_primary">Update Total</button>
+                    </form>
+                </div>
+            </div> *@
+
+            <div class="col col-lg-6">
+                <div class="cart_total_table">
+                    <h3 class="wrap_title">Cart Totals</h3>
+                    <ul class="ul_li_block">
+                        <li>
+                            <span>Cart Subtotal</span>
+                            <span class="total_price">@Model.CartItems.Sum(x => x.Quantity * x.Price).ToString("C")</span>
+                        </li>
+                        <li>
+                            <span>Shipping and Handling</span>
+                            <span>Free Shipping</span>
+                        </li>
+                        @* <li>
+                            <span>Discount Amount</span>
+                            <span class="total_price">@Model.DiscountAmount.ToString("C")</span>
+                        </li> *@
+                        <li>
+                            <span>Order Total</span>
+                            <span class="total_price">@Model.GrandTotal.ToString("C")</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+</section>
+<!-- cart_section - end
+================================================== -->

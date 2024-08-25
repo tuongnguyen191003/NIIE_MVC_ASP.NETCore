@@ -1,0 +1,68 @@
+﻿@model AccountViewModel
+@{
+    ViewData["Title"] = "Account";
+    Layout = "_Layout";
+}
+
+<!-- account_section - start ================================================== -->
+<section class="account_section section_space">
+    <div class="container">
+        <div class="row">
+            <div class="col col-lg-3">
+                <div class="account_menu">
+                    <h2 class="title_text">My Account</h2>
+                    <ul class="account_menu_list ul_li_block">
+                        <li class="active"><a href="@Url.Action("Index", "Account")">Account Dashboard</a></li>
+                        <li><a asp-controller="Account" asp-action="EditProfile">Edit Profile</a></li>
+                        <li><a asp-controller="Account" asp-action="ChangePassword">Change Password</a></li>
+                        <li><a asp-controller="Account" asp-action="MyOrders">My Orders</a></li>
+                        <!-- Add more links as needed -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col col-lg-9">
+                <div class="account_content_area">
+                    <h3>My Dashboard</h3>
+                    <ul class="content_layout ul_li_block">
+                        <li>
+                            <h4><strong>Hello, @Model.FullName!</strong></h4>
+                            <p class="mb-0">
+                                From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.
+                            </p>
+                        </li>
+                        <li>
+                            <h4>Contact Information</h4>
+                            <p class="mb-0">
+                                <strong>Full Name:</strong> @Model.FullName <br />
+                                <strong>Username:</strong> @Model.Username <br />
+                                <strong>Email:</strong> @Model.Email <br />
+                                <strong>Phone Number:</strong> @Model.PhoneNumber <br />
+                                <strong>Address:</strong> @Model.Address <br />
+                                <strong>City:</strong> @Model.City <br />
+                                <strong>Date of Birth:</strong> @Model.DateOfBirth?.ToString("d") <br />
+                            </p>
+                            <a class="mb-3" href="mailto:@Model.Email">@Model.Email</a>
+                            <ul class="btns_group ul_li">
+                                <li><a class="btn btn_gray" asp-controller="Account" asp-action="EditProfile">Edit Account Information</a></li>
+                                <li><a class="btn btn_gray" asp-controller="Account" asp-action="ChangePassword">Change Password</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Profile Image</h4>
+                            <img src="@Model.ProfileImage" alt="Profile Image" style="width: 150px; height: auto;" />
+                            <a class="btn btn_gray" asp-controller="Account" asp-action="EditProfile">Update Profile Image</a>
+                        </li>
+                        <!-- Add more sections as needed -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- account_section - end ================================================== -->
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

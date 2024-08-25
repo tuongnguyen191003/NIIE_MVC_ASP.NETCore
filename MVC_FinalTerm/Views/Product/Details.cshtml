@@ -1,0 +1,483 @@
+﻿@model MVC_FinalTerm.Models.ViewModels.ProductDetailsViewModel
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_Normal";
+}
+@inject UserManager<AppUserModel> UserManager
+
+@{
+    string userEmail = null;
+    if (User.Identity?.IsAuthenticated ?? false)
+    {
+        var user = UserManager.GetUserAsync(User).Result;
+        if (user != null)
+        {
+            userEmail = UserManager.GetEmailAsync(user).Result;
+        }
+    }
+}
+<!-- main body - start
+      ================================================== -->
+<main>
+    <!-- breadcrumb_section - start
+    ================================================== -->
+    <div class="breadcrumb_section">
+        <div class="container">
+            <ul class="breadcrumb_nav ul_li">
+                <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                <li>Product Details</li>
+            </ul>
+        </div>
+    </div>
+    <!-- breadcrumb_section - end
+    ================================================== -->
+    <!-- product_details - start
+    ================================================== -->
+    
+
+    <!-- product_details - start
+    ================================================== -->
+    <section class="product_details section_space pb-0">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6">
+                    <div class="product_details_image">
+                        <div class="details_image_carousel">
+                            @if (Model.Product.ProductImages != null && Model.Product.ProductImages.Any())
+                            {
+                                foreach (var image in Model.Product.ProductImages)
+                                {
+                                    <div class="slider_item">
+                                        <img src="~/frontend/images/product_details/@image.Name" alt="">
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="slider_item">
+                                    <img src="~/frontend/images/product_details/@Model.Product.Image" alt="">
+                                </div>
+                            }
+                        </div>
+
+                        <div class="details_image_carousel_nav">
+                            @if (Model.Product.ProductImages != null && Model.Product.ProductImages.Any())
+                            {
+                                foreach (var image in Model.Product.ProductImages)
+                                {
+                                    <div class="slider_item">
+                                        <img src="~/frontend/images/product_details/@image.Name" alt="">
+                                    </div>
+                                }
+                            }
+                            else
+                            {
+                                <div class="slider_item">
+                                    <img src="~/frontend/images/product_details/@Model.Product.Image" alt="">
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="product_details_content">
+                        <h2 class="item_title">@Model.Product.Name</h2>
+                        <p>
+                            @Model.Product.Description
+                        </p>
+                        <div class="item_review">
+                            <ul class="rating_star ul_li">
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    if (Model.Product.Reviews.Any(r => r.Rating >= i))
+                                    {
+                                        <li><i class="fa-solid fa-star"></i></li>
+                                    }
+                                    else
+                                    {
+                                        <li><i class="fa-regular fa-star"></i></li>
+                                    }
+                                }
+                            </ul>
+                            <span class="review_value">@Model.Product.Reviews.Count Rating(s)</span>
+                        </div>
+                        <div class="item_price">
+                            <span>@Model.Product.Price</span>
+                            <del>@Model.Product.OldPrice</del>
+                        </div>
+
+                        <hr>
+
+                        <div class="item_attribute">
+                            <h3 class="title_text">Specific Info<span class="underline"></span></h3>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col col-md-6">
+                                        <div class="select_option clearfix">
+                                            <h4 class="input_title">RAM *</h4>
+                                            @if (Model.Product.Ram != null)
+                                            {
+                                                <span>@Model.Product.Ram.Value</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <div class="select_option clearfix">
+                                            <h4 class="input_title">ROM *</h4>
+                                            @if (Model.Product.Rom != null)
+                                            {
+                                                <span>@Model.Product.Rom.Value</span>
+                                            }
+                                        </div>
+                                    </div>
+                                    <div class="col col-md-6">
+                                        <div class="select_option clearfix">
+                                            <h4 class="input_title">Color *</h4>
+                                            @if (Model.Product.Color != null)
+                                            {
+                                                <span>@Model.Product.Color.Name</span>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="default_btns_group ul_li">
+                                <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add" asp-route-productId="@Model.Product.Id">Add To Cart</a></li>
+                                @if (User.Identity?.IsAuthenticated ?? false)
+                                {
+                                    <li>
+                                        <form asp-controller="WishList" asp-action="Add" method="post">
+                                            <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                            <button type="submit" class="btn btn-link p-0">
+                                                <i class="fas fa-heart"></i>
+                                            </button>
+                                        </form>
+
+                                    </li>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("Login", "Account")">
+                                        <i class="fas fa-heart"></i>
+                                    </a>
+                                }
+                            </ul>
+                            </form>
+                            
+                        </div
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="details_information_tab">
+                <ul class="tabs_nav nav ul_li" role=tablist>
+                    <li role="presentation">
+                        <button class="active" data-bs-toggle="tab" data-bs-target="#description_tab" type="button" role="tab" aria-controls="description_tab" aria-selected="true">
+                            Description
+                        </button>
+                    </li>
+                    <li role="presentation">
+                        <button data-bs-toggle="tab" data-bs-target="#additional_information_tab" type="button" role="tab" aria-controls="additional_information_tab" aria-selected="false">
+                            Additional information
+                        </button>
+                    </li>
+                    <li role="presentation">
+                        <button data-bs-toggle="tab" data-bs-target="#reviews_tab" type="button" role="tab" aria-controls="reviews_tab" aria-selected="false">
+                            Reviews(@Model.Product.Reviews.Count)
+                        </button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="description_tab" role="tabpanel">
+                        @foreach (var description in Model.Product.DetailDescriptions)
+                        {
+                            @if (!string.IsNullOrEmpty(description.Content))
+                            {
+                                <p>
+                                    @description.Content
+                                </p>
+                            }
+                            @if (!string.IsNullOrEmpty(description.Image))
+                            {
+                                <img src="~/frontend/images/product_details/tab_description/@description.Image" alt="Hình ảnh chi tiết">
+                            }
+                            @if (!string.IsNullOrEmpty(description.VideoUrl))
+                            {
+                                <video  controls>
+                                    <source src="~/frontend/images/product_details/tab_description/@description.VideoUrl" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            }
+                        }
+                    </div>
+
+                    <div class="tab-pane fade" id="additional_information_tab" role="tabpanel">
+                        <div class="additional_info_list">
+                            @foreach (var spec in Model.Product.ProductSpecs)
+                            {
+                                <div class="row align-items-center mb-3">
+                                    <div class="col-md-4">
+                                        <h4 class="info_title">@spec.Title</h4>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <span>@spec.Value</span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="reviews_tab" role="tabpanel">
+                        <div class="customer_reviews">
+                            <h4 class="reviews_tab_title">@Model.Product.Reviews.Count reviews for this product</h4>
+                            @foreach (var review in Model.Product.Reviews)
+                            {
+                                <div class="customer_review_item clearfix">
+                                    <div class="customer_image">
+                                        <img src="~/frontend/images/profiles/@review.AuthorImage" alt="@review.ReviewerName">
+                                    </div>
+                                    <div class="customer_content">
+                                        <div class="customer_info">
+                                            <ul class="rating_star ul_li">
+                                                @for (int i = 1; i <= 5; i++)
+                                                {
+                                                    if (i <= review.Rating)
+                                                    {
+                                                        <li><i class="fa-solid fa-star"></i></li>
+                                                    }
+                                                    else
+                                                    {
+                                                        <li><i class="fa-regular fa-star"></i></li>
+                                                    }
+                                                }
+                                            </ul>
+                                            <h4 class="customer_name">@review.ReviewerName</h4>
+                                            <span class="comment_date">@review.CreatedDate.ToString("MMMM dd, yyyy")</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            @review.Content
+                                        </p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+
+                        <h4 class="reviews_tab_title">Add a review</h4>
+                        <p>Your email address will not be published. Required fields are marked *</p>
+
+                        @if (User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <form asp-controller="Product" asp-action="AddReview" asp-route-Id="@Model.Product.Id" method="post" id="reviewForm">
+                                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                <div class="form_item">
+                                    <label for="username">Username</label>
+                                    <input type="text" name="username" id="username" value="@User.Identity.Name" readonly required>
+                                </div>
+                                <div class="form_item">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" value="@userEmail" readonly required>
+                                </div>
+                                <div class="your_ratings">
+                                    <h5>Your Ratings:</h5>
+                                    <input type="number" name="rating" id="ratingInput" min="1" max="5" value="0" class="form-control" />
+                                    <small class="form-text text-muted">Please enter a number from 1 to 5, where 1 is the lowest rating and 5 is the highest.</small>
+                                </div>
+                                <div class="form_item">
+                                    <textarea name="content" placeholder="Your Review*" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn_primary">Submit Now</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-controller="Product" asp-action="AddReview" asp-route-Id="@Model.Product.Id" method="post" id="reviewForm">
+                                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                <div class="form_item">
+                                    <input type="text" name="name" placeholder="Your name*" required>
+                                </div>
+                                <div class="form_item">
+                                    <input type="email" name="email" placeholder="Your Email*" required>
+                                </div>
+                                <div class="your_ratings">
+                                    <h5>Your Ratings:</h5>
+                                    <input type="number" name="rating" id="ratingInput" min="1" max="5" value="0" class="form-control" />
+                                    <small class="form-text text-muted">Please enter a number from 1 to 5, where 1 is the lowest rating and 5 is the highest.</small>
+                                </div>
+                                <div class="form_item">
+                                    <textarea name="content" placeholder="Your Review*" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn_primary">Submit Now</button>
+                            </form>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product_details - end
+    ================================================== -->
+    <!-- related_products_section - start
+    ================================================== -->
+    <section class="related_products_section section_space">
+        <div class="container">
+            <div class="section_title mb-0">
+                <h2 class="title_text">Latest Products</h2>
+            </div>
+            <div class="product_wrap related_products_wrap">
+                @if (Model.RelatedProducts != null && Model.RelatedProducts.Any())
+                {
+                    @foreach (var item in Model.RelatedProducts)
+                    {
+                        <div class="product_layout1">
+                            @if (item.StatusName == "Hot")
+                            {
+                                <div class="item_badge hot_badge">
+                                    <span>HOT</span>
+                                </div>
+                            }
+                            else if (item.StatusName == "New")
+                            {
+                                <div class="item_badge new_badge">
+                                    <span>NEW</span>
+                                </div>
+                            }
+                            else if (item.StatusName == "Sales")
+                            {
+                                <div class="item_badge sale_badge">
+                                    <span>SALE</span>
+                                </div>
+                            }
+                            <div class="item_image">
+                                <img src="~/frontend/images/products/@item.Image" alt="@item.Name">
+                                <img src="~/frontend/images/products/@item.Image" alt="@item.Name">
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">@item.Name</a>
+                                </h3>
+
+                                <ul class="rating_star ul_li">
+                                    @for (int i = 1; i <= 5; i++)
+                                    {
+                                        // Kiểm tra xem Rating có lớn hơn hoặc bằng i không
+                                        if (item.Reviews != null && item.Reviews.Any(r => r.Rating >= i))
+                                        {
+                                            <li><i class="fa-solid fa-star"></i></li>
+                                        }
+                                        else
+                                        {
+                                            <li><i class="fa-regular fa-star"></i></li>
+                                        }
+                                    }
+                                </ul>
+                                <div class="item_price">
+                                    <span>@item.Price</span>
+                                    <del>@item.OldPrice</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    @* <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add">Add To Cart</a></li> *@
+                                    <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add" asp-route-productId="@item.Id">Add To Cart</a></li>
+                                    <li><a asp-controller="Compare" asp-action="Add"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    @if (User.Identity?.IsAuthenticated ?? false)
+                                    {
+                                        <li>
+                                            <form asp-controller="WishList" asp-action="Add" method="post">
+                                                <input type="hidden" name="productId" value="@Model.Product.Id" />
+                                                <button type="submit" class="btn btn-link p-0">
+                                                    <i class="fas fa-heart"></i>
+                                                </button>
+                                            </form>
+                                        </li>
+                                    }
+                                    else
+                                    {
+                                        <a href="@Url.Action("Login", "Account")">
+                                            <i class="fas fa-heart"></i>
+                                        </a>
+                                    }
+
+                                </ul>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>Không có sản phẩm cùng series.</p>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- related_products_section - end
+    ================================================== -->
+
+</main>
+<!-- main body - end
+================================================== -->
+
+
+<script>
+    $(document).ready(function() {
+    // Khi người dùng thay đổi giá trị rating
+    $("#ratingInput").on("input", function() {
+        var rating = $(this).val();
+        if (rating < 1) {
+            $(this).val(1);
+        } else if (rating > 5) {
+            $(this).val(5);
+        }
+    });
+});
+
+    $(document).on('click', '.wishlist-btn', function (e) {
+        e.preventDefault();
+        var productId = $(this).data('productid');
+        $.ajax({
+            url: '/WishList/Add',
+            type: 'POST',
+            data: { productId: productId },
+            success: function (response) {
+                alert('Product added to wishlist!');
+            },
+            error: function () {
+                alert('There was an error adding the product to the wishlist.');
+            }
+        });
+    });
+
+</script>
+
+
+
+<style>
+    .star-rating {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.star-rating input[type="checkbox"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.star-rating label.fa-solid {
+    color: #ffd700;
+}
+
+.star-rating label.fa-regular {
+    color: #ccc;
+}
+
+
+</style>
+
+
+

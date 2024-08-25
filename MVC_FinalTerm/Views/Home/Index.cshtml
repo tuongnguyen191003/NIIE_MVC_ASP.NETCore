@@ -1,0 +1,1579 @@
+﻿@{
+    ViewData["title"] = "Home Page";
+}
+@model List<MVC_FinalTerm.Models.ProductModel>
+<!--Banner-->
+<section class="slider_section">
+    <div class="main_slider" data-slick='{"arrows": false}'>
+        <div class="slider_item">
+            <div class="container">
+                <div class="row align-items-center justify-content-lg-between">
+                    <div class="order-last col col-lg-6 col-md-6 col-sm-6">
+                        <div class="slider_image" data-animation="fadeInRight" data-delay=".2s">
+                            <img src="~/frontend/images/banners/Sliding Rog Ally X-home.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col col-lg-5 col-md-6 col-sm-6">
+                        <div class="slider_content">
+                            <h3 class="small_title" data-animation="fadeInUp2" data-delay=".2s">GAMING GEAR</h3>
+                            <h4 class="big_title" data-animation="fadeInUp2" data-delay=".4s">ROG ALLY X</h4>
+                            <p data-animation="fadeInUp2" data-delay=".6s">Play All Your Games</p>
+                            <a class="btn btn_primary" asp-controller="Product" asp-action="Index" data-animation="fadeInUp2" data-delay=".8s">Start Buying</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- slider_section - end
+================================================== -->
+<!--Policy-->
+<!-- policy_section - start
+           ================================================== -->
+<section class="policy_section">
+    <div class="policy_item">
+        <div class="item_icon">
+            <i class="icon icon-Truck"></i>
+        </div>
+        <div class="item_content">
+            <h3 class="item_title">Free Shipping</h3>
+            <p>
+                Free shipping on all US order
+            </p>
+        </div>
+    </div>
+
+    <div class="policy_item">
+        <div class="item_icon">
+            <i class="icon icon-Headset"></i>
+        </div>
+        <div class="item_content">
+            <h3 class="item_title">Support 24/7</h3>
+            <p>
+                Contact us 24 hours a day
+            </p>
+        </div>
+    </div>
+
+    <div class="policy_item">
+        <div class="item_icon">
+            <i class="icon icon-Wallet"></i>
+        </div>
+        <div class="item_content">
+            <h3 class="item_title">100% Money Back</h3>
+            <p>
+                You have 30 days to Return
+            </p>
+        </div>
+    </div>
+
+    <div class="policy_item">
+        <div class="item_icon">
+            <i class="fa-light fa-rocket"></i>
+        </div>
+        <div class="item_content">
+            <h3 class="item_title">30 Days Return</h3>
+            <p>
+                If goods have problems
+            </p>
+        </div>
+    </div>
+
+    <div class="policy_item">
+        <div class="item_icon">
+            <i class="icon icon-Dollars"></i>
+        </div>
+        <div class="item_content">
+            <h3 class="item_title">Payment Secure</h3>
+            <p>
+                We ensure secure payment
+            </p>
+        </div>
+    </div>
+</section>
+<!-- policy_section - end
+================================================== -->
+<!-- promotion_section - start
+            ================================================== -->
+@* <section class="promotion_section">
+    <div class="container">
+        <div class="row promotion_banner_wrap">
+            <div class="col col-lg-6">
+                <div class="promotion_banner">
+                    <div class="item_image">
+                        <img src="~/assets/images/promotion/banner_img_1.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                    </div>
+                    <div class="item_content">
+                        <h3 class="item_title">Protective Sleeves</h3>
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                        <a class="btn btn_primary" href="shop_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-lg-6">
+                <div class="promotion_banner">
+                    <div class="item_image">
+                        <img src="~/assets/images/promotion/banner_img_2.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                    </div>
+                    <div class="item_content">
+                        <h3 class="item_title">Nutrillet Blender</h3>
+                        <p>
+                            It is a long established fact that a reader will be distracted
+                        </p>
+                        <a class="btn btn_primary" href="shop_details.html">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> *@
+<!-- promotion_section - end
+================================================== -->
+<!-- new_arrivals_section - start
+            ================================================== -->
+<!-- New Arrivals Section -->
+<section class="new_arrivals_section section_space">
+    <div class="container">
+        <div class="section_title mb-0">
+            <h2 class="title_text"><i class="fa-duotone fa-sparkles"></i> New Arrivals</h2>
+        </div>
+        <div class="row newarrivals_products">
+            <div class="col col-lg-12">
+                <div class="new_arrivals_carousel arrows_topright">
+                    <div class="common_carousel_2" data-slick='{"dots": false}'>
+                        @foreach (var product in Model)
+                        {
+                            <div class="slider_item">
+                                <div class="product_layout1">
+                                    @if (product.StatusName == "SALE")
+                                    {
+                                        <div class="item_badge sale_badge">
+                                            <span>SALE</span>
+                                        </div>
+                                    }
+                                    else if (product.StatusName == "NEW")
+                                    {
+                                    <div class="item_badge hot_badge">
+                                        <span>NEW</span>
+                                    </div>
+                                    }
+                                    else if (product.StatusName == "Hot")
+                                    {
+                                    <div class="item_badge hot_badge">
+                                        <span>HOT</span>
+                                    </div>
+                                    }
+
+                                    <div class="item_image">
+                                        <img src="~/frontend/images/products/@product.Image" alt="@product.Name">
+                                        <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                                    </div>
+                                    <div class="item_content">
+                                        <h3 class="item_title">
+                                            <a asp-controller="Product" asp-action="Details" asp-route-id="@product.Id">@product.Name</a>
+                                        </h3>
+                                        <ul class="rating_star ul_li">
+                                            @if (product.Reviews != null && product.Reviews.Any())
+                                            {
+                                                var averageRating = product.Reviews.Average(r => r.Rating);
+                                                for (int i = 0; i < 5; i++)
+                                                {
+                                                    if (i < averageRating)
+                                                    {
+                                                        <i class="fa-solid fa-star"></i>
+                                                    }
+                                                    else
+                                                    {
+                                                        <i class="fa-regular fa-star"></i>
+                                                    }
+                                                }
+                                            }
+                                            else
+                                            {
+                                                for (int i = 0; i < 5; i++)
+                                                {
+                                                    <i class="fa-regular fa-star"></i>
+                                                }
+                                            }
+                                        </ul>
+                                        <div class="item_price">
+                                            <span>@product.Price.ToString("C")</span>
+                                            <del>@product.OldPrice.ToString("C")</del>
+                                        </div>
+
+
+
+                                        <ul class="item_btns_group ul_li">
+                                            <li><a class="addtocart_btn" asp-controller="Cart" asp-action="Add" asp-route-id="@product.Id">Add To Cart</a></li>
+                                            <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                            <li><a asp-controller="WishList" asp-action="Add" asp-route-id="@product.Id"><i class="fa-solid fa-heart"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <div class="carousel_nav">
+                        <button type="button" class="cc2_left_arrow"><i class="fa-regular fa-angle-left"></i></button>
+                        <button type="button" class="cc2_right_arrow"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new_arrivals_section - end
+================================================== -->
+@* <!-- product_section - start
+           ================================================== -->
+<section class="product_section">
+    <div class="container">
+        <ul class="tabs_nav nav" role="tablist">
+            <li role="presentation">
+                <button class="active" data-bs-toggle="tab" data-bs-target="#bestseller_tab" type="button" role="tab" aria-selected="true">Best Seller</button>
+            </li>
+            <li role="presentation">
+                <button data-bs-toggle="tab" data-bs-target="#ourproduct_tab" type="button" role="tab" aria-selected="false">Our Product</button>
+            </li>
+            <li role="presentation">
+                <button data-bs-toggle="tab" data-bs-target="#newproduct_tab" type="button" role="tab" aria-selected="false">New Product</button>
+            </li>
+            <li role="presentation">
+                <button data-bs-toggle="tab" data-bs-target="#hotdeal_tab" type="button" role="tab" aria-selected="false">Hot Deal</button>
+            </li>
+        </ul>
+
+        <div class="tab-content tad_has_carousel">
+            <div class="tab-pane fade show active" id="bestseller_tab" role="tabpanel">
+                <div class="product_carousel_wrap arrows_topright">
+                    <div class="best_seller_carousel" data-slick='{"dots": false}'>
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel_nav">
+                        <button type="button" class="bsc_left_arrow"><i class="fa-regular fa-angle-left"></i></button>
+                        <button type="button" class="bsc_right_arrow"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="ourproduct_tab" role="tabpanel">
+                <div class="product_carousel_wrap arrows_topright">
+                    <div class="common_carousel_3" data-slick='{"dots": false}'>
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel_nav">
+                        <button type="button" class="cc3_left_arrow"><i class="fa-regular fa-angle-left"></i></button>
+                        <button type="button" class="cc3_right_arrow"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="newproduct_tab" role="tabpanel">
+                <div class="product_carousel_wrap arrows_topright">
+                    <div class="new_product_carousel" data-slick='{"dots": false}'>
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel_nav">
+                        <button type="button" class="npc_left_arrow"><i class="fa-regular fa-angle-left"></i></button>
+                        <button type="button" class="npc_right_arrow"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="hotdeal_tab" role="tabpanel">
+                <div class="product_carousel_wrap arrows_topright">
+                    <div class="hot_deal_carousel" data-slick='{"dots": false}'>
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge sale_badge">
+                                <span>SALE</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_6.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">40 '' Vikan HD ULTRA</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge new_badge">
+                                <span>NEW</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_8.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_7.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="product_layout1">
+                            <div class="item_badge hot_badge">
+                                <span>HOT</span>
+                            </div>
+                            <div class="item_image">
+                                <img src="~/assets/images/shop/product_img_10.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <img src="~/assets/images/shop/product_img_9.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                <a class="quickview_btn" data-bs-toggle="modal" href="#quickview_popup" role="button">Quick View</a>
+                            </div>
+                            <div class="item_content">
+                                <h3 class="item_title">
+                                    <a href="shop_details.html">Samsung Galaxy Note IV</a>
+                                </h3>
+                                <ul class="rating_star ul_li">
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                    <li><i class="fa-solid fa-star"></i></li>
+                                </ul>
+                                <div class="item_price">
+                                    <span>$620.00</span>
+                                    <del>$720.00</del>
+                                </div>
+                                <ul class="item_btns_group ul_li">
+                                    <li><a class="addtocart_btn" href="shop_details.html">Add To Cart</a></li>
+                                    <li><a href="#!"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                    <li><a href="#!"><i class="fas fa-heart"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel_nav">
+                        <button type="button" class="hdc_left_arrow"><i class="fa-regular fa-angle-left"></i></button>
+                        <button type="button" class="hdc_right_arrow"><i class="fa-regular fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product_section - end
+================================================== --> *@
+<!-- brand_section - start
+            ================================================== -->
+<div class="brand_section section_space pb-0">
+    <div class="container">
+        <div class="brand_carousel">
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/apple.jpg">
+                    <img src="~/frontend/images/brands/apple.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/samsung.jpg">
+                    <img src="~/frontend/images/brands/samsung.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/xiaomi.jpg">
+                    <img src="~/frontend/images/brands/xiaomi.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/oppo.jpg">
+                    <img src="~/frontend/images/brands/oppo.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/sony.jpg">
+                    <img src="~/frontend/images/brands/sony.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/lenovo.jpg">
+                    <img src="~/frontend/images/brands/lenovo.jpg">
+                </a>
+            </div>
+            <div class="slider_item">
+                <a class="product_brand_logo" href="#!">
+                    <img src="~/frontend/images/brands/asus.jpg">
+                    <img src="~/frontend/images/brands/asus.jpg">
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- brand_section - end
+================================================== -->

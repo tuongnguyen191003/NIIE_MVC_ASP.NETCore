@@ -1,0 +1,399 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUserModel> UserManager
+@inject SignInManager<AppUserModel> SignInManager
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title> @ViewData["Title"] | CyberCore</title>
+    <link rel="shortcut icon" href="~/assets/images/logo/favourite-big-size-icon-removebg.png">
+
+    <!-- fraimwork - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css">
+
+    <!-- icon font - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/stroke-gap-icons.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/icofont.css">
+
+    <!-- animation - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/animate.css">
+
+    <!-- carousel - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick.css">
+    <link rel="stylesheet" type="text/css" href="~/assets/css/slick-theme.css">
+
+    <!-- popup - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/magnific-popup.css">
+
+    <!-- jquery-ui - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/jquery-ui.css">
+
+    <!-- select option - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/nice-select.css">
+
+    <!-- custom - css include -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- body_wrap - start -->
+    <div class="body_wrap">
+
+        <!-- backtotop - start -->
+        <div class="backtotop">
+            <a href="#" class="scroll">
+                <i class="far fa-arrow-up"></i>
+            </a>
+        </div>
+        <!-- backtotop - end -->
+        <!-- preloader - start -->
+        <div id="preloader"></div>
+        <!-- preloader - end -->
+        <!-- header_section - start
+        ================================================== -->
+        <header class="header_section">
+            <div class="header_top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-6">
+                            <ul class="header_select_options ul_li">
+                                <li>
+                                    <div class="select_option">
+                                        <div class="flug_wrap">
+                                            <img src="~/assets/images/flug/flug_uk.png" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                        </div>
+                                        <select>
+                                            <option value="1" selected>English</option>
+                                        </select>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="select_option">
+                                        <h3 class="title_text">Currency:</h3>
+                                        <select>
+                                            <option value="united States Dollar" selected>USD</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col col-md-6">
+                            <p class="header_hotline">Hotline: <strong>(+84) 329 407 627</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_middle">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-lg-3 col-5">
+                            <div class="brand_logo">
+                                <a class="brand_link" asp-controller="Home" asp-action="Index">
+                                    <img src="~/assets/images/logo/cybercore.logo.jpg" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6 col-2">
+                            <nav class="main_menu navbar navbar-expand-lg">
+                                <div class="main_menu_inner collapse navbar-collapse justify-content-center" id="main_menu_dropdown">
+                                    <ul class="main_menu_list ul_li">
+                                        <li class="active">
+                                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" asp-controller="Blog" asp-action="Index" >
+                                                Blog
+                                           </a>
+                                        </li>
+                                        <li>
+                                            <a class="nav-link" asp-controller="About" asp-action="Index" >
+                                                About Us
+                                            </a>
+                                        </li>
+                                        @if (User.Identity?.IsAuthenticated ?? false)
+                                        {
+                                           
+                                        }
+                                        else
+                                        {
+                                            <li>
+                                                <a class="nav-link" asp-controller="Account" asp-action="Login">Login</a>
+                                            </li>
+                                            <li>
+                                                <a class="nav-link" asp-controller="Account" asp-action="Signup">Register</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="col col-lg-3 col-5">
+                            <ul class="header_icons_group ul_li_right">
+                                <li>
+                                    <button class="mobile_menu_btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_menu_dropdown" aria-controls="main_menu_dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                        <i class="fal fa-bars"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    <a asp-controller="Account" asp-action="Login">
+                                        <i class="fa-solid fa-shop"></i>
+                                    </a>
+                                </li>
+                                <li><a asp-controller="Contact" asp-action="Index"><i class="fa-regular fa-location-dot"></i></a></li>
+                                <li><a asp-controller="Compare" asp-action="Index"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+                                <li>
+                                    <a asp-controller="WishList" asp-action="Index">
+                                        <i class="fa-regular fa-heart"></i>
+                                        @if (User.Identity?.IsAuthenticated ?? false)
+                                        {
+                                            var wishlistCount = ViewBag.WishlistCount ?? 0;
+                                            if (wishlistCount > 0)
+                                            {
+                                                <small class="wishlist_counter">@wishlistCount</small>
+                                            }
+                                        }
+                                    </a>
+                                </li>
+
+                                <li>
+                                    @if (User.Identity?.IsAuthenticated ?? false)
+                                    {
+                                        var user = ViewBag.CurrentUser as AppUserModel; // Lấy thông tin người dùng hiện tại
+                                        string profileImageUrl = user?.ProfileImage ?? "/frontend/images/default-user.png"; // Đường dẫn hình ảnh, sử dụng ảnh mặc định nếu không có
+
+                                    <li>
+                                        <a class="nav-link" asp-controller="Account" asp-action="Index">
+                                            <img src="@profileImageUrl" alt="User Image" style="width: 40px; height: 40px; border-radius: 50%; object-fit: cover;" />
+                                        </a>
+                                    </li>
+                                    <form asp-controller="Account" asp-action="Logout" method="post">
+                                        <button type="submit" class="nav-link">Logout</button>
+                                    </form>
+                                    }
+                                    else
+                                    {
+                                    <a asp-controller="Account" asp-action="Index"><i class="fa-regular fa-user"></i></a>
+                                    }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-3 col-6">
+                            <div class="allcategories_dropdown">
+                                <button class="allcategories_btn" type="button" data-bs-toggle="collapse" data-bs-target="#allcategories_collapse"  aria-controls="allcategories_collapse">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="13" viewBox="0 0 15 13">
+                                        <image width="15" height="13" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAgMAAAALcNzSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACVBMVEX+//3+//0AAABvRd2oAAAAAXRSTlMAQObYZgAAAAFiS0dEAmYLfGQAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQflBwIBIhVZ2fz2AAAAGUlEQVQI12MIDQ0NYQATaAAshEUcJgvVBgDy4QdJZv6kzwAAAABJRU5ErkJggg==" />
+                                    </svg>
+                                    All Categories
+                                </button>
+                                <div class="allcategories_collapse collapse" id="allcategories_collapse">
+                                    <div class="card card-body">
+                                        <ul class="allcategories_list ul_li_block">
+                                            <li><a asp-action="Index" asp-controller="Product"><i class="fa-duotone fa-rocket-launch"></i> Products</a></li>
+                                            <li><a href="shop_list.html"><i class="fa-duotone fa-earth-americas"></i> Most Popular Products</a></li>
+                                            <li><a href="shop_list.html"><i class="fa-duotone fa-mobile-screen"></i> Mobile Accessories</a></li>
+                                            <li><a href="shop_grid.html"><i class="fa-duotone fa-computer-classic"></i> Computer Accessories</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-md-6">
+                            <form action="#">
+                                <div class="advance_serach">
+                                    <div class="form_item">
+                                        <input type="search" name="search" placeholder="Search Prudcts...">
+                                    </div>
+                                    <button type="submit" class="search_btn"><i class="far fa-search"></i></button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col col-md-3 col-6">
+                            <button type="button" class="cart_btn">
+                                <a asp-controller="Cart" asp-action="Index">
+                                    <span class="cart_icon"><i class="icon icon-ShoppingCart"></i></span>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header_section - end
+        ================================================== -->
+        <!-- main body - start
+        ================================================== -->
+        <main>
+            @Html.Partial("_NotificationPartial")
+            @RenderBody()
+            <!--==================================================-->
+            @* @await Html.PartialAsync("_BrandSlider")
+            <!--==================================================--> *@
+            @await Html.PartialAsync("_NewsLetter")
+        </main>
+        <!-- main body - end
+        ================================================== -->
+        <!-- footer_section - start
+        ================================================== -->
+        <footer class="footer_section">
+            <div class="footer_widget_area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer_widget footer_about">
+                                <div class="brand_logo">
+                                    <a class="brand_link" href="index.html">
+                                        <img src="~/assets/images/logo/cybercore.logo.jpg" alt="Getyootech - Gadgets Ecommerce Site Template">
+                                    </a>
+                                </div>
+                                <p>
+                                    CyberCore is an e-commerce website specializing in high-quality tech products. We offer a wide range of gadgets, including smartphones, laptops, and accessories, ensuring a convenient and reliable shopping experience. Discover the latest in technology at CyberCore today!
+                                </p>
+                                <ul class="social_round ul_li">
+                                    <li><a href="#!"><i class="icofont-youtube-play"></i></a></li>
+                                    <li><a href="#!"><i class="icofont-instagram"></i></a></li>
+                                    <li><a href="#!"><i class="icofont-twitter"></i></a></li>
+                                    <li><a href="#!"><i class="icofont-facebook"></i></a></li>
+                                    <li><a href="#!"><i class="icofont-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer_widget footer_useful_links">
+                                <h3 class="footer_widget_title text-uppercase">Quick Links</h3>
+                                <ul class="ul_li_block">
+                                    <li><a asp-controller="About" asp-action="Index">About Us</a></li>
+                                    <li><a asp-controller="Contact" asp-action="Index">Contact</a></li>
+                                    <li><a asp-controller="Product" asp-action="Index">Products</a></li>
+                                    <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                                    <li><a asp-controller="Account" asp-action="Signup">Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-2 col-md-3 col-sm-6">
+                            <div class="footer_widget footer_useful_links">
+                                <h3 class="footer_widget_title text-uppercase">Custom area</h3>
+                                <ul class="ul_li_block">
+                                    <li><a asp-controller="Account" asp-action="Index">My Account</a></li>
+                                    <li><a asp-controller="WishList" asp-action="Index">Wishlist</a></li>
+                                    <li><a asp-controller="Order" asp-action="Index">Tracking List</a></li>
+                                    <li><a asp-controller="Cart" asp-action="Index">My Cart</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col col-lg-4 col-md-6 col-sm-6">
+                            <div class="footer_widget footer_contact">
+                                <h3 class="footer_widget_title text-uppercase">Contact Info</h3>
+                                <p>
+                                    Contact Us Shop Owner: Nguyen Minh Tuong
+                                </p>
+                                <div class="hotline_wrap">
+                                    <div class="footer_hotline">
+                                        <div class="item_icon">
+                                            <i class="icofont-headphone-alt"></i>
+                                        </div>
+                                        <div class="item_content">
+                                            <h4 class="item_title">Have any question?</h4>
+                                            <span class="hotline_number">(+84) 329 407 627</span>
+                                        </div>
+                                    </div>
+                                    <div class="livechat_btn clearfix">
+                                        <a class="btn border_primary" href="#!">Live Chat</a>
+                                    </div>
+                                </div>
+                                <ul class="store_btns_group ul_li">
+                                    <li><a href="#!"><img src="~/assets/images/app_store.png" alt="app_store"></a></li>
+                                    <li><a href="#!"><img src="~/assets/images/play_store.png" alt="play_store"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col col-md-6">
+                            <p class="copyright_text">
+                                Copyright © <b>CyberCore</b> Team. All rights reserved Copyrights 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer_section - end
+        ================================================== -->
+
+    </div>
+    <!-- body_wrap - end -->
+    <!-- fraimwork - jquery include -->
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/popper.min.js"></script>
+    <script src="~/assets/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/bootstrap5-dropdown-ml-hack.js"></script>
+
+    <!-- carousel - jquery include -->
+    <script src="~/assets/js/slick.min.js"></script>
+
+    <!-- popup - jquery include -->
+    <script src="~/assets/js/magnific-popup.min.js"></script>
+
+    <!-- jquery-ui - jquery include -->
+    <script src="~/assets/js/jquery-ui.js"></script>
+
+    <!-- off canvas sidebar - jquery include -->
+    <script src="~/assets/js/mCustomScrollbar.js"></script>
+
+    <!-- select option - jquery include -->
+    <script src="~/assets/js/nice-select.min.js"></script>
+
+    <!-- countdown timer - jquery include -->
+    <script src="~/assets/js/countdown.js"></script>
+
+    <!-- counter up - jquery include -->
+    <script src="~/assets/js/counterup.min.js"></script>
+    <script src="~/assets/js/waypoints.min.js"></script>
+
+    <!-- custom - jquery include -->
+    <script src="~/assets/js/main.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.all.min.js"></script>
+    <script>
+        $(function () {
+            var message = '@TempData["success"]';
+            if (message != '') {
+                Swal.fire(message);
+            }
+            var messageError = '@TempData["error"]';
+            if (messageError != '') {
+                Swal.fire(messageError);
+            }
+        });
+    </script>
+</body>
+</html>
