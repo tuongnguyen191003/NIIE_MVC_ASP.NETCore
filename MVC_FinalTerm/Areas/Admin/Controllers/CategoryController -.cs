@@ -19,14 +19,12 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
             _context = context;
             _webHostEnvironment = webHostEnvironment;
         }
-        // GET: Admin/Brand
+
+        // GET: Admin/Category/Index
         [Route("Index")]
         public async Task<IActionResult> Index()
         {
-            // Lấy danh sách các đối tượng BrandModel từ cơ sở dữ liệu
             var categories = await _context.Categories.ToListAsync();
-
-            // Truyền danh sách brands và _context sang view
             return View(categories);
         }
 
@@ -36,6 +34,7 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
         {
             return View();
         }
+
         // POST: Admin/Category/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -44,114 +43,111 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                //code thêm dữ liệu
-                category.Slug = category.Name.Replace(" ", "-");
+                category.Slug = category.Name.Replace(" ", "-").ToLower();
                 category.Description = category.Description.Replace("<p>", "").Replace("</p>", "").Replace("<br>", "\n");
-                var slug = await _context.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug);
-                if (slug != null)
+
+                var slugExists = await _context.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug);
+                if (slugExists != null)
                 {
-                    ModelState.AddModelError("", "Category exists already");
+                    ModelState.AddModelError("", "Category already exists.");
                     return View(category);
                 }
-                
+
                 _context.Add(category);
                 await _context.SaveChangesAsync();
-                TempData["success"] = "Add successfully";
+                TempData["success"] = "Category added successfully.";
                 return RedirectToAction("Index");
             }
-            else
-            {
-                TempData["error"] = "Model đang có một vài vấn đề";
-                List<string> errors = new List<string>();
-                foreach (var value in ModelState.Values)
-                {
-                    foreach (var error in value.Errors)
-                    {
-                        errors.Add(error.ErrorMessage);
-                    }
-                }
-                string errorMessage = string.Join("\n", errors);
-                return BadRequest(errorMessage);
-            }
+
+            TempData["error"] = "There are some errors in the model.";
+            return View(category);
         }
 
-        // GET: Admin/Brand/Edit/5
-        [Route("Edit")]
+        // GET: Admin/Category/Edit/5
+        [Route("Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
-            CategoryModel categories = await _context.Categories.FindAsync(id);
-            if (categories == null) // Kiểm tra xem brand có tồn tại hay không
+            if (id == null)
             {
                 return NotFound();
             }
-            return View(categories);
+
+            var category = await _context.Categories.FindAsync(id);
+            if (category == null)
+            {
+                return NotFound();
+            }
+
+            return View(category);
         }
 
-        // POST: Admin/Brand/Edit/5
+        // POST: Admin/Category/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Route("Edit")]
+        [Route("Edit/{id}")]
         public async Task<IActionResult> Edit(int id, CategoryModel category)
         {
-            // Tìm category trong database dựa vào Id
-            var existedCategory = await _context.Categories.FindAsync(id);
-
-            if (existedCategory == null) // Kiểm tra xem brand có tồn tại hay không
+            if (id != category.CategoryId)
             {
-                return NotFound(); // Trả về trang 404 nếu không tìm thấy
+                return NotFound();
             }
 
-            // Kiểm tra model state
             if (ModelState.IsValid)
             {
-                // Tạo slug mới từ name
-                existedCategory.Slug = existedCategory.Name.Replace(" ", "-");
-
-                // Kiểm tra slug có trùng với slug hiện tại hay không
-                var slug = await _context.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug && p.CategoryId != id);
-
-                if (slug != null)
+                var existedCategory = await _context.Categories.FindAsync(id);
+                if (existedCategory == null)
                 {
-                    ModelState.AddModelError("", "Category exists already");
-                    return View(existedCategory);
+                    return NotFound();
                 }
 
-                // Kiểm tra xem có thay đổi nào không
-                if (existedCategory.Name == category.Name &&
-                    existedCategory.Description == category.Description &&
-                    existedCategory.Status == category.Status)
+                // Generate a slug from the name
+                var newSlug = category.Name.Replace(" ", "-").ToLower();
+
+                // Check if another category with the same slug exists
+                var slugExists = await _context.Categories.FirstOrDefaultAsync(p => p.Slug == newSlug && p.CategoryId != id);
+                if (slugExists != null)
                 {
-                    TempData["success"] = "No changes were made.";
+                    ModelState.AddModelError("", "Another category with the same slug already exists.");
+                    return View(category);
+                }
+
+                // Update the category details
+                existedCategory.Name = category.Name;
+                existedCategory.Description = category.Description.Replace("<p>", "").Replace("</p>", "").Replace("<br>", "\n");
+                existedCategory.Status = category.Status;
+                existedCategory.Slug = newSlug;
+
+                try
+                {
+                    _context.Update(existedCategory);
+                    await _context.SaveChangesAsync();
+                    TempData["success"] = "Category updated successfully.";
                     return RedirectToAction("Index");
                 }
-
-                // Cập nhật thông tin category
-                existedCategory.Name = category.Name;
-                existedCategory.Description = category.Description;
-                existedCategory.Status = category.Status;
-
-                _context.Update(existedCategory);
-                await  _context.SaveChangesAsync();
-                TempData["success"] = "Update successfully";
-                return RedirectToAction("Index");
-            }
-            else
-            {
-                TempData["error"] = "Model đang có một vài vấn đề";
-                List<string> errors = new List<string>();
-                foreach (var value in ModelState.Values)
+                catch (DbUpdateConcurrencyException)
                 {
-                    foreach (var error in value.Errors)
+                    if (!CategoryExists(existedCategory.CategoryId))
                     {
-                        errors.Add(error.ErrorMessage);
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
                     }
                 }
-                string errorMessage = string.Join("\n", errors);
-                return BadRequest(errorMessage);
             }
+
+            TempData["error"] = "There are some errors in the model.";
+            return View(category);
         }
-        // GET: Admin/Brand/Details/5
-        [Route("Details")]
+
+        private bool CategoryExists(int id)
+        {
+            return _context.Categories.Any(e => e.CategoryId == id);
+        }
+
+        // GET: Admin/Category/Details/5
+        [Route("Details/{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -168,31 +164,27 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
             return View(categoryModel);
         }
 
-        
+        // GET: Admin/Category/Delete/5
+        [Route("Delete/{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            CategoryModel category = await _context.Categories.FindAsync(id);
+            var category = await _context.Categories.FindAsync(id);
             if (category == null)
             {
                 return NotFound();
             }
-            // Kiểm tra xem thương hiệu này có được sử dụng bởi bất kỳ sản phẩm nào không
-            var productsUsingBrand = _context.Products.Where(p => p.CategoryId == id).ToList();
-            if (productsUsingBrand.Any())
+
+            var productsUsingCategory = _context.Products.Where(p => p.CategoryId == id).ToList();
+            if (productsUsingCategory.Any())
             {
-                // Nếu có sản phẩm sử dụng thương hiệu này, hiển thị thông báo lỗi
                 TempData["error"] = "This category cannot be removed because it is being used by several products.";
                 return RedirectToAction("Index");
             }
-            else
-            {
-                // Nếu không có sản phẩm sử dụng, xóa thương hiệu
-                _context.Categories.Remove(category);
-                await _context.SaveChangesAsync();
-                TempData["success"] = "Remove Successfully!";
-                return RedirectToAction("Index");
-            }
-        }
 
+            _context.Categories.Remove(category);
+            await _context.SaveChangesAsync();
+            TempData["success"] = "Category removed successfully.";
+            return RedirectToAction("Index");
+        }
     }
 }

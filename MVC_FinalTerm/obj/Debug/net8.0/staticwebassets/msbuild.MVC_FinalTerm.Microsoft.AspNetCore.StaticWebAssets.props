@@ -63200,12 +63200,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\not product in cart.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\0003068_op-lung-zagg-cau-vong-magsafe-for-iphone-14_550.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>MVC_FinalTerm</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MVC_FinalTerm</BasePath>
-      <RelativePath>frontend/images/products/0003068_op-lung-zagg-cau-vong-magsafe-for-iphone-14_550.png</RelativePath>
+      <RelativePath>frontend/images/products/1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -63214,7 +63214,199 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\0003068_op-lung-zagg-cau-vong-magsafe-for-iphone-14_550.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\22e14d4a-3d18-4fb8-954b-b34aedc19c66_0025502_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/22e14d4a-3d18-4fb8-954b-b34aedc19c66_0025502_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\22e14d4a-3d18-4fb8-954b-b34aedc19c66_0025502_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\2e284e50-0ec5-45a7-a1f1-38b3071e8c75_0025505_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/2e284e50-0ec5-45a7-a1f1-38b3071e8c75_0025505_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\2e284e50-0ec5-45a7-a1f1-38b3071e8c75_0025505_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\31b351a2-03a9-432d-a1f6-e74ca4b91ab0_0028078_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/31b351a2-03a9-432d-a1f6-e74ca4b91ab0_0028078_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\31b351a2-03a9-432d-a1f6-e74ca4b91ab0_0028078_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\3e761d1b-f3b7-4259-9532-bfc2e3693e67_0028080_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/3e761d1b-f3b7-4259-9532-bfc2e3693e67_0028080_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\3e761d1b-f3b7-4259-9532-bfc2e3693e67_0028080_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\5e3d29cc-4b93-4e98-a601-afa765ede834_0025507_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/5e3d29cc-4b93-4e98-a601-afa765ede834_0025507_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\5e3d29cc-4b93-4e98-a601-afa765ede834_0025507_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\69387b95-8042-4727-8a37-1f3e0613fbee_0028079_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/69387b95-8042-4727-8a37-1f3e0613fbee_0028079_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\69387b95-8042-4727-8a37-1f3e0613fbee_0028079_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\7b4756f7-ad95-4964-a58f-c739da7a1d23_0025503_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/7b4756f7-ad95-4964-a58f-c739da7a1d23_0025503_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\7b4756f7-ad95-4964-a58f-c739da7a1d23_0025503_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\86260b98-4651-4778-a68e-b33a49d1bc51_0028082_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/86260b98-4651-4778-a68e-b33a49d1bc51_0028082_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\86260b98-4651-4778-a68e-b33a49d1bc51_0028082_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\91d7cb0b-e25a-40aa-9506-aa641290a9cf_0028078_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/91d7cb0b-e25a-40aa-9506-aa641290a9cf_0028078_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\91d7cb0b-e25a-40aa-9506-aa641290a9cf_0028078_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\93782972-dadf-411a-b409-cbc23efd1fed_0028087_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/93782972-dadf-411a-b409-cbc23efd1fed_0028087_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\93782972-dadf-411a-b409-cbc23efd1fed_0028087_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\9b8f7754-a977-413a-9357-6e6bce361808_0025501_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/9b8f7754-a977-413a-9357-6e6bce361808_0025501_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\9b8f7754-a977-413a-9357-6e6bce361808_0025501_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\a517d5ef-c996-4f1b-a210-022f95c5eec2_0025498_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/a517d5ef-c996-4f1b-a210-022f95c5eec2_0025498_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\a517d5ef-c996-4f1b-a210-022f95c5eec2_0025498_blue_550.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\aa2b7f97-a4f8-4a33-a6bb-d50229277493_0008123_iphone-14-pro-max-256gb_550.jpg))">
       <SourceType>Package</SourceType>
@@ -63263,6 +63455,102 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\apple-airpods-pro-2-usb-c_8_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\b07de2ed-5bcc-44e1-8253-c1fd5a705d72_0025499_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/b07de2ed-5bcc-44e1-8253-c1fd5a705d72_0025499_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\b07de2ed-5bcc-44e1-8253-c1fd5a705d72_0025499_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\bd06494a-da52-4701-9147-6f73e80b1030_0025506_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/bd06494a-da52-4701-9147-6f73e80b1030_0025506_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\bd06494a-da52-4701-9147-6f73e80b1030_0025506_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\cb99e26f-c683-42e4-befc-b3e0a2c70310_0028086_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/cb99e26f-c683-42e4-befc-b3e0a2c70310_0028086_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\cb99e26f-c683-42e4-befc-b3e0a2c70310_0028086_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\ddcd22c7-8bd3-4bd7-b6a8-fc484f902b23_0028081_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/ddcd22c7-8bd3-4bd7-b6a8-fc484f902b23_0028081_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\ddcd22c7-8bd3-4bd7-b6a8-fc484f902b23_0028081_titan-den_550.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\e613a3a7-ca06-4139-ab0c-b1cc87bd533a_0025504_blue_550.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/e613a3a7-ca06-4139-ab0c-b1cc87bd533a_0025504_blue_550.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\e613a3a7-ca06-4139-ab0c-b1cc87bd533a_0025504_blue_550.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\f5809b69-14e7-46a9-bcb3-b652502e24b5_0028088_titan-den_550.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/products/f5809b69-14e7-46a9-bcb3-b652502e24b5_0028088_titan-den_550.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\f5809b69-14e7-46a9-bcb3-b652502e24b5_0028088_titan-den_550.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\products\group_509_14__1.jpg))">
       <SourceType>Package</SourceType>
@@ -64207,6 +64495,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\profiles\8b0c8ae4-658f-48ee-8d90-de17176beb91_me 6.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\profiles\f4cc0d0f-2d80-4fc2-8950-44983c805d5f_me 2.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>MVC_FinalTerm</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/MVC_FinalTerm</BasePath>
+      <RelativePath>frontend/images/profiles/f4cc0d0f-2d80-4fc2-8950-44983c805d5f_me 2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\frontend\images\profiles\f4cc0d0f-2d80-4fc2-8950-44983c805d5f_me 2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\index.html))">
       <SourceType>Package</SourceType>
