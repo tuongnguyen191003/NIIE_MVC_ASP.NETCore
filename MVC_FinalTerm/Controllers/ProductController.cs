@@ -8,6 +8,7 @@ using MVC_FinalTerm.Repository.DataContext;
 using MVC_FinalTerm.Repository.Sessions;
 using System.Net.WebSockets;
 
+
 namespace MVC_FinalTerm.Controllers
 {
     //[Authorize(Roles = "Customer, Blogger")]
@@ -125,5 +126,127 @@ namespace MVC_FinalTerm.Controllers
             // Chuyển hướng quay lại trang chi tiết sản phẩm sau khi thêm review thành công
             return RedirectToAction("Details", new { Id = productId });
         }
+
+
+        // tìm kiếm --------------------------------------tìm kiếm-------------------------tìm kiếm
+        public async Task<IActionResult> Search(string search)
+        {
+            var products = await _context.Products.Where(p => p.Name.Contains(search) || p.Description.Contains(search)).ToListAsync();
+
+            ViewBag.Keyword = search;
+
+            return View(products);
+        }
+
+        //-------------------------------------------
+
+        //public async Task<IActionResult> Filter(decimal? minPrice, decimal? maxPrice, string sortOrder)
+        //{
+        //    // Khởi tạo query
+        //    var productsQuery = _context.Products.AsQueryable();
+
+        //    // Áp dụng các bộ lọc về giá
+        //    if (minPrice.HasValue)
+        //    {
+        //        productsQuery = productsQuery.Where(p => p.Price >= minPrice.Value);
+        //    }
+
+        //    if (maxPrice.HasValue)
+        //    {
+        //        productsQuery = productsQuery.Where(p => p.Price <= maxPrice.Value);
+        //    }
+
+        //    // Sắp xếp theo giá
+        //    switch (sortOrder)
+        //    {
+        //        case "price_asc":
+        //            productsQuery = productsQuery.OrderBy(p => p.Price);
+        //            break;
+        //        case "price_desc":
+        //            productsQuery = productsQuery.OrderByDescending(p => p.Price);
+        //            break;
+        //        default:
+        //            productsQuery = productsQuery.OrderBy(p => p.Name);
+        //            break;
+        //    }
+
+        //    // Lấy danh sách sản phẩm sau khi lọc
+        //    var products = await productsQuery.ToListAsync();
+
+        //    return View("Search", products); // Render lại view Search với dữ liệu đã lọc
+        //}
+
+        public class ProductController : Controller
+        {
+            private readonly ApplicationDbContext _context;
+
+            public ProductController(ApplicationDbContext context)
+            {
+                _context = context;
+            }
+
+            public async Task<IActionResult> Filter(decimal? minPrice, decimal? maxPrice, string sortOrder, int? minRam, int? maxRam, int? minStorage, int? maxStorage)
+            {
+                // Khởi tạo query
+                var productsQuery = _context.Products.Include(p => p.Ram).Include(p => p.Rom).AsQueryable();
+
+                // Áp dụng các bộ lọc về giá
+                if (minPrice.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Price >= minPrice.Value);
+                }
+
+                if (maxPrice.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Price <= maxPrice.Value);
+                }
+
+                // Áp dụng bộ lọc RAM
+                if (minRam.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Ram.RAMSize >= minRam.Value);
+                }
+
+                if (maxRam.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Ram.RAMSize <= maxRam.Value);
+                }
+
+                // Áp dụng bộ lọc dung lượng lưu trữ
+                if (minStorage.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Rom.StorageSize >= minStorage.Value);
+                }
+
+                if (maxStorage.HasValue)
+                {
+                    productsQuery = productsQuery.Where(p => p.Rom.StorageSize <= maxStorage.Value);
+                }
+
+                // Sắp xếp theo giá
+                switch (sortOrder)
+                {
+                    case "price_asc":
+                        productsQuery = productsQuery.OrderBy(p => p.Price);
+                        break;
+                    case "price_desc":
+                        productsQuery = productsQuery.OrderByDescending(p => p.Price);
+                        break;
+                    default:
+                        productsQuery = productsQuery.OrderBy(p => p.Name);
+                        break;
+                }
+
+                // Lấy danh sách sản phẩm sau khi lọc
+                var products = await productsQuery.ToListAsync();
+
+                return View("Search", products); // Render lại view Search với dữ liệu đã lọc
+            }
+        }
+
+
+
+
+
     }
 }

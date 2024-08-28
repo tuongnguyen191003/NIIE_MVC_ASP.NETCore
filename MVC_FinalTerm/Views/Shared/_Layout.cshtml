@@ -218,15 +218,18 @@
                         </div>
 
                         <div class="col col-md-6">
-                            <form action="#">
+                            <form asp-controller="Product" asp-action="Search" method="post">
                                 <div class="advance_serach">
                                     <div class="form_item">
-                                        <input type="search" name="search" placeholder="Search Prudcts...">
+                                        <input type="text" name="search" placeholder="Search Prudcts...">
                                     </div>
                                     <button type="submit" class="search_btn"><i class="far fa-search"></i></button>
                                 </div>
                             </form>
                         </div>
+
+                       
+                     @*    a--------------------------------- *@
 
                         <div class="col col-md-3 col-6">
                             <button type="button" class="cart_btn">

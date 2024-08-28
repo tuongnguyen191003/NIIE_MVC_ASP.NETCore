@@ -1,293 +1,297 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\",
+  "WorkspaceRootPath": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\rommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\rommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\controllers\\prodetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\prodetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\controllers\\categorycontroller -.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\categorycontroller -.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\controllers\\proimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\proimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\proimages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\wishlistitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\wishlistitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\detaildescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\detaildescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\proimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\proimages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\proimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\proimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\final\\mvc_finalterm\\mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\product\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\childcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\childcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\checkout\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\cart\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\cart\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|d:\\aspnetcore\\finalterm\\mvc_finalterm\\mvc_finalterm\\migrations\\20240822220330_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\rommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\rommodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\prodetail\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\prodetail\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\category\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\brand\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\controllers\\prodetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\prodetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\controllers\\categorycontroller -.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\categorycontroller -.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\controllers\\proimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\proimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\proimages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\wishlistitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\wishlistitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\cartitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\brandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\reviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\signupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\editprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\detaildescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\detaildescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\proimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\proimages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\proimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\proimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\proimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\childcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\childcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\orderdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\checkout\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\cart\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\cart\\empty.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\bannercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\mvc_finalterm\\migrations\\20240822220330_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\migrations\\20240822220330_abc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -298,100 +302,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RomModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\RomModel.cs",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\RomModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\RomModel.cs",
-              "RelativeToolTip": "MVC_FinalTerm\\Models\\RomModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T07:59:29.104Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AQIAAP4BAAAAAAAAAAAAAC4CAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-24T01:02:05.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T21:18:46.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAuwB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T21:19:37.787Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T21:19:30.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T21:18:18.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T20:42:01.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "CheckoutController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\CheckoutController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\CheckoutController.cs",
               "ViewState": "AQIAAGAAAAAAAAAAAAAcwIMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -399,11 +346,180 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Program.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Program.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Program.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T19:44:12.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAANEAAAAAAAAAAAAAAOEAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T20:38:35.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Search.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Product\\Search.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Search.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Product\\Search.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAALcBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T16:36:06.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAANcAAAAAAAAAAAAmwPUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T15:04:00.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T16:06:25.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAAACYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:06:54.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAADwv5YAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T21:29:35.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T20:42:01.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T21:18:18.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Edit.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T21:19:30.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Details.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T21:19:37.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProDetail\\Create.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T21:18:46.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\appsettings.json",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\appsettings.json",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\appsettings.json",
+              "RelativeToolTip": "MVC_FinalTerm\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAACNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-26T15:28:36.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RomModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\RomModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\RomModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\RomModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\RomModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T07:59:29.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -411,11 +527,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAP4BAAAAAAAAAAAAAC4CAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T01:02:05.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -423,11 +551,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Category\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -435,11 +563,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Brand\\Edit.cshtml",
               "ViewState": "AQIAACQAAAAAAAAAAAAAABEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -447,11 +575,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\AccountController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -459,11 +587,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "WishListController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\WishListController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\WishListController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\WishListController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\WishListController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\WishListController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\WishListController.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAkwIMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -471,23 +599,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAcwGsAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T15:04:00.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ViewState": "AQIAANgAAAAAAAAAAAAywOoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -495,11 +611,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "ProDetailController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProDetailController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -507,11 +623,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "CategoryController -.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\CategoryController -.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFwAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -519,11 +635,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "BrandController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -531,11 +647,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "ProImagesController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\ProImagesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -543,11 +659,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -555,11 +671,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAIoAAAAAAAAAAAAAAIwAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -567,11 +683,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_LoginLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -579,11 +695,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "WishListItems.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\WishListItems.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\WishListItems.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\WishListItems.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\WishListItems.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\WishListItems.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\WishListItems.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -591,11 +707,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "CartItemModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartItemModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartItemModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\CartItemModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartItemModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartItemModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\CartItemModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAQwA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -603,11 +719,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CartController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CartController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\CartController.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAiwC4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -615,11 +731,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "BrandModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\BrandModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\BrandModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\BrandModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\BrandModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\BrandModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\BrandModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw4AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -627,11 +743,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "CategoryModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CategoryModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\CategoryModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CategoryModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\CategoryModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -639,11 +755,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "CheckoutViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -651,11 +767,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "BrandController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\BrandController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BrandController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\BrandController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -663,11 +779,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvxkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -675,11 +791,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "AccountViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -687,11 +803,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "ReviewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ReviewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ReviewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ReviewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ReviewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ReviewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ReviewModel.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAA0wCgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -699,11 +815,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "CategoryViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\CategoryViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -711,11 +827,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "SignupViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\SignupViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvw8AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -723,11 +839,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "ProductDetailsViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\ProductDetailsViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -735,11 +851,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\LoginViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -747,11 +863,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 44,
               "Title": "EditProfileViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\EditProfileViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -759,11 +875,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 45,
               "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\ChangePasswordViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -771,11 +887,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 46,
               "Title": "CartItemViewModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -783,11 +899,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "CartModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\CartModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\CartModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\CartModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -795,11 +911,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "DetailDescription.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\DetailDescription.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\DetailDescription.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\DetailDescription.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\DetailDescription.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\DetailDescription.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\DetailDescription.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -807,11 +923,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 48,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\UserModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\UserModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\UserModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -819,11 +935,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 47,
               "Title": "ProductImage.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ProductImage.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ProductImage.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ProductImage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -831,11 +947,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -843,11 +959,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Create.cshtml",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwBoAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -855,11 +971,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "20240822220330_ABC.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Migrations\\20240822220330_ABC.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -867,11 +983,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 51,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "ViewState": "AQIAAA0AAAAAAAAAAAAywDYAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -879,11 +995,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -891,11 +1007,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 54,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -903,11 +1019,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 57,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\HomeController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\HomeController.cs",
               "ViewState": "AQIAACkAAAAAAAAAAAAywBQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -915,11 +1031,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\ProImages\\Edit.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAuwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -927,35 +1043,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAJgAAAAAAAAAAAAywMgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T21:29:35.775Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAOEAAAAAAAAAAAAywI4BAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T20:38:35.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Product\\Details.cshtml",
               "ViewState": "AQIAADYAAAAAAAAAAAAywFYAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -963,11 +1055,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "ChildCategory.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ChildCategory.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ChildCategory.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ChildCategory.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ChildCategory.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\ChildCategory.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\ChildCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -975,11 +1067,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "MyOrders.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -987,11 +1079,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "Signup.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\Signup.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -999,11 +1091,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "OrderDetails.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\OrderDetails.cshtml",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1011,11 +1103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\Login.cshtml",
               "ViewState": "AQIAABsAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1023,11 +1115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "Confirm.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Checkout\\Confirm.cshtml",
               "ViewState": "AQIAABsAAAAAAAAAAAAuwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1035,11 +1127,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "OrderModel.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderModel.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\OrderModel.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderModel.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\OrderModel.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAABCwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1047,11 +1139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAMIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1059,11 +1151,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "OrderDetails.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderDetails.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\OrderDetails.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Models\\OrderDetails.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Models\\OrderDetails.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAcwBMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1071,11 +1163,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAAGUAAAAAAAAAAAAywHQAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1083,35 +1175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Program.cs",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Program.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Program.cs",
-              "RelativeToolTip": "MVC_FinalTerm\\Program.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAywG8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T19:44:12.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Details.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Product\\Details.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Details.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Product\\Details.cshtml",
-              "ViewState": "AQIAAP8AAAAAAAAAAAAAABEBAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T15:06:46.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 69,
               "Title": "Empty.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Cart\\Empty.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1119,11 +1187,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 71,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
               "RelativeToolTip": "MVC_FinalTerm\\Views\\Brand\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1131,35 +1199,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAywCYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T15:06:54.826Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 70,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Product\\Index.cshtml",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-22T15:06:16.113Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
               "Title": "BannerController.cs",
-              "DocumentMoniker": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BannerController.cs",
+              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BannerController.cs",
               "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\BannerController.cs",
-              "ToolTip": "D:\\ASPNETCORE\\FinalTerm\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BannerController.cs",
+              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\final\\MVC_FinalTerm\\MVC_FinalTerm\\Controllers\\BannerController.cs",
               "RelativeToolTip": "MVC_FinalTerm\\Controllers\\BannerController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
