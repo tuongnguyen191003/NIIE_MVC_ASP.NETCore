@@ -70,6 +70,9 @@ namespace MVC_FinalTerm.Controllers
                 return RedirectToAction("Login", "Account", new { returnUrl = Url.Action("Index", "Checkout") });
             }
 
+            // Tính toán TotalAmount
+            decimal totalAmount = cartItems.Sum(x => x.Quantity * x.Price);
+
             // Tạo đơn hàng mới
             OrderModel order = new OrderModel()
             {
@@ -82,7 +85,8 @@ namespace MVC_FinalTerm.Controllers
                 PaymentMethod = model.PaymentMethod,
                 OrderDate = DateTime.Now,
                 UserId = user.Id ,// Liên kết đơn hàng với người dùng
-                OrderDetails = new List<OrderDetails>()
+                OrderDetails = new List<OrderDetails>(),
+                TotalAmount = totalAmount // Gán TotalAmount
             };
 
             // Thêm đơn hàng vào cơ sở dữ liệu

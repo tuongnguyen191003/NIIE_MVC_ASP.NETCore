@@ -39,7 +39,7 @@
                             <td>@item.ProductName</td>
                             <td>@item.Quantity</td>
                             <td>@item.Price.ToString("C")</td>
-                            <td>@(item.Quantity * item.Price).ToString("C")</td>
+                            <td>@(item.Quantity * item.Price)</td>
                         </tr>
                     }
                 }
@@ -54,8 +54,8 @@
             </tbody>
         </table>
 
-        <p>Total Amount: <strong>@Model.OrderDetails.Sum(x => x.Quantity * x.Price).ToString("C")</strong></p>
-
+        @* <p>Total Amount: <strong>@Model.OrderDetails.Sum(x => x.Quantity * x.Price).ToString("C")</strong></p> *@
+        <p>Total Amount: <strong>@Model.TotalAmount.ToString("C")</strong></p>
         <a href="@Url.Action("Index", "Home")" class="btn btn-primary">Continue Shopping</a>
     </div>
 </div>

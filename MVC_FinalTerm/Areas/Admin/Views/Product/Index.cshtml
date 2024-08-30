@@ -20,6 +20,7 @@
                         <th>Color</th>
                         <th>Stock</th>
                         <th>Status</th>
+                        <th>Status Name</th>
                         @* <th>Series</th> *@
                         <th>Brand</th>
                         @* <th>Category</th> *@
@@ -38,13 +39,14 @@
                             <td>@item.Color.Name</td>
                             <td>@item.StockQuantity</td>
                             <td>@(item.IsOnStatus ? "Show" : "Hide")</td>
+                            <td>@item.StatusName</td>
                             <td>@item.Brand.Name</td>
                             
                             <td><img src="~/frontend/images/products/@item.Image" alt="@item.Name" style="width: 150px; height: auto;" /></td>
                             <td>
                                 <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
                                 <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">View Details</a>
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm confirmDeletion">Remove</a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm confirmDeletion">Delete</a>
                             </td>
                         </tr>
                     }

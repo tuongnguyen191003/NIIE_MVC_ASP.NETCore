@@ -8,7 +8,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1 class="page-header">Add New Brand</h1>
+            <h1 class="page-header">Add New Category</h1>
             <form asp-action="Create" method="post" enctype="multipart/form-data">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <div class="form-group">
@@ -26,7 +26,6 @@
                     <input asp-for="Status" class="form-control" />
                     <span asp-validation-for="Status" class="text-danger"></span>
                 </div>
-                
                 <div class="form-group">
                     <input type="submit" value="Create" class="btn btn-primary" />
                 </div>
@@ -36,17 +35,6 @@
 </div>
 
 @section Scripts {
-    <script>
-        function previewImage(event) {
-            var reader = new FileReader();
-            reader.onload = function () {
-                var output = document.getElementById('imagePreview');
-                output.src = reader.result;
-                output.style.display = 'block';
-            };
-            reader.readAsDataURL(event.target.files[0]);
-        }
-    </script>
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }

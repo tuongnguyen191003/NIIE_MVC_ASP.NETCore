@@ -208,9 +208,6 @@
                                     <div class="card card-body">
                                         <ul class="allcategories_list ul_li_block">
                                             <li><a asp-action="Index" asp-controller="Product"><i class="fa-duotone fa-rocket-launch"></i> Products</a></li>
-                                            <li><a href="shop_list.html"><i class="fa-duotone fa-earth-americas"></i> Most Popular Products</a></li>
-                                            <li><a href="shop_list.html"><i class="fa-duotone fa-mobile-screen"></i> Mobile Accessories</a></li>
-                                            <li><a href="shop_grid.html"><i class="fa-duotone fa-computer-classic"></i> Computer Accessories</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -218,14 +215,16 @@
                         </div>
 
                         <div class="col col-md-6">
-                            <form action="#">
+                            <form id="searchForm" method="get" action="@Url.Action("SearchResults", "Home")">
                                 <div class="advance_serach">
                                     <div class="form_item">
-                                        <input type="search" name="search" placeholder="Search Prudcts...">
+                                        <input type="search" id="searchInput" name="keyword" placeholder="Search Products..." autocomplete="off">
+                                        <div id="suggestions"></div>
                                     </div>
                                     <button type="submit" class="search_btn"><i class="far fa-search"></i></button>
                                 </div>
                             </form>
+                            <div id="search-results"></div>
                         </div>
 
                         <div class="col col-md-3 col-6">
@@ -392,6 +391,46 @@
             var messageError = '@TempData["error"]';
             if (messageError != '') {
                 Swal.fire(messageError);
+            }
+        });
+
+        $(document).ready(function () {
+            $('#searchInput').on('keyup', function () {
+                var keyword = $(this).val();
+                if (keyword.length > 0) {
+                    $.ajax({
+                        url: '@Url.Action("QuickSearch", "Home")',
+                        type: 'POST',
+                        data: { keyword: keyword },
+                        success: function (result) {
+                            $('#suggestions').html(result);
+                        }
+                    });
+                } else {
+                    $('#suggestions').empty();
+                }
+            });
+
+            $('#searchForm').on('submit', function (e) {
+                e.preventDefault();
+                var keyword = $('#searchInput').val();
+                if (keyword.length > 0) {
+                    window.location.href = '@Url.Action("SearchResults", "Home")?keyword=' + encodeURIComponent(keyword);
+                }
+            });
+        });
+        $('#search-input').on('input', function () {
+            var keyword = $(this).val();
+            if (keyword.length > 2) {
+                $.ajax({
+                    url: '@Url.Action("QuickSearch", "Home")',
+                    data: { searchTerm: keyword },
+                    success: function (data) {
+                        $('#search-results').html(data);
+                    }
+                });
+            } else {
+                $('#search-results').empty();
             }
         });
     </script>

@@ -366,6 +366,9 @@ namespace MVC_FinalTerm.Migrations
                     b.Property<string>("Telephone")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<decimal>("TotalAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("Town")
                         .HasColumnType("nvarchar(max)");
 
@@ -457,6 +460,8 @@ namespace MVC_FinalTerm.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("BrandId");
+
+                    b.HasIndex("CategoryId");
 
                     b.HasIndex("ColorId");
 
@@ -802,6 +807,10 @@ namespace MVC_FinalTerm.Migrations
                         .WithMany()
                         .HasForeignKey("BrandId");
 
+                    b.HasOne("MVC_FinalTerm.Models.CategoryModel", "Category")
+                        .WithMany("Products")
+                        .HasForeignKey("CategoryId");
+
                     b.HasOne("MVC_FinalTerm.Models.ColorModel", "Color")
                         .WithMany()
                         .HasForeignKey("ColorId")
@@ -821,6 +830,8 @@ namespace MVC_FinalTerm.Migrations
                         .IsRequired();
 
                     b.Navigation("Brand");
+
+                    b.Navigation("Category");
 
                     b.Navigation("Color");
 
@@ -900,6 +911,11 @@ namespace MVC_FinalTerm.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MVC_FinalTerm.Models.CategoryModel", b =>
+                {
+                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("MVC_FinalTerm.Models.OrderModel", b =>
