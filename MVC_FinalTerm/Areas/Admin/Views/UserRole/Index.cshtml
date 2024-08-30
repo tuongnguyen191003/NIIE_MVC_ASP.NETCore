@@ -1,0 +1,37 @@
+﻿@model IEnumerable<MVC_FinalTerm.Models.ViewModels.UserRoleViewModel>
+
+@{
+    ViewData["Title"] = "User Roles";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">User Roles</h1>
+            <a asp-action="Create" class="btn btn-primary mb-2">Assign Role to User</a>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>Manage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.UserName</td>
+                            <td>@item.RoleName</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-userId="@item.UserId" asp-route-roleId="@item.RoleId" class="btn btn-warning btn-sm">Edit Roles</a>
+                                <a asp-action="Delete" asp-route-userId="@item.UserId" asp-route-roleId="@item.RoleId" class="btn btn-danger btn-sm confirmDeletion">Remove</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

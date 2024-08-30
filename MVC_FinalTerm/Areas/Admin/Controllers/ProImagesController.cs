@@ -147,7 +147,7 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
         }
 
         // GET: Admin/ProImages/Delete
-        [Route("Delete")]
+        [Route("Delete/{id}")] // Thay đổi route để sử dụng id
         public async Task<IActionResult> Delete(int id)
         {
             var productImage = await _context.ProductImages.FindAsync(id);
@@ -156,31 +156,19 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            return View(productImage);
-        }
+            string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "frontend/images/products");
+            string filePath = Path.Combine(uploadDir, productImage.Name);
 
-        // POST: Admin/ProImages/Delete
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        [Route("Delete")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var productImage = await _context.ProductImages.FindAsync(id);
-            if (productImage != null)
+            if (System.IO.File.Exists(filePath))
             {
-                string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "frontend/images/products");
-                string filePath = Path.Combine(uploadDir, productImage.Name);
-                if (System.IO.File.Exists(filePath))
-                {
-                    System.IO.File.Delete(filePath);
-                }
-
-                _context.ProductImages.Remove(productImage);
-                await _context.SaveChangesAsync();
-                TempData["success"] = "Image deleted successfully!";
+                System.IO.File.Delete(filePath);
             }
 
+            _context.ProductImages.Remove(productImage);
+            await _context.SaveChangesAsync();
+            TempData["success"] = "Image deleted successfully!";
+
             return RedirectToAction("Index");
-        }   
+        }
     }
 }

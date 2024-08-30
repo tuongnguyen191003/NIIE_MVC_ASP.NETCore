@@ -131,7 +131,7 @@ namespace MVC_FinalTerm.Controllers
             return View(wishlistItems);
         }
 
-        public async Task<int> GetWishListCount()
+        public async Task<int> GetWishListCount()   
         {
             var user = await _userManager.GetUserAsync(User);
             if (user != null)

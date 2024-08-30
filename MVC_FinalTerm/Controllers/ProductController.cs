@@ -125,5 +125,26 @@ namespace MVC_FinalTerm.Controllers
             // Chuyển hướng quay lại trang chi tiết sản phẩm sau khi thêm review thành công
             return RedirectToAction("Details", new { Id = productId });
         }
+        // Action này sẽ xử lý khi người dùng nhấn Enter hoặc nút Search
+        public async Task<IActionResult> ProductResults(string searchQuery)
+        {
+            if (string.IsNullOrWhiteSpace(searchQuery))
+            {
+                // Nếu không có từ khóa tìm kiếm, trả về tất cả sản phẩm hoặc xử lý khác tùy ý
+                return View(await _context.Products.ToListAsync());
+            }
+
+            var products = await _context.Products
+                .Where(p => p.Name.Contains(searchQuery) ||
+                            p.Brand.Name.Contains(searchQuery) ||
+                            p.Category.Name.Contains(searchQuery))
+                .Include(p => p.Brand)
+                .Include(p => p.Category)
+                .ToListAsync();
+
+            return View(products);
+        }
+
+
     }
 }

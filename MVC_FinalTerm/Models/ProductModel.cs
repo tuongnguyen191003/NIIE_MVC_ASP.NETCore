@@ -34,6 +34,7 @@ namespace MVC_FinalTerm.Models
         //Navigation Properties
         //public SeriesModel Series { get; set; }
         public BrandModel? Brand { get; set; }
+        public CategoryModel? Category { get; set; } 
         //public ChildCategory ChildCategory { get; set; }
         public string? Image { get; set; }
         [NotMapped]

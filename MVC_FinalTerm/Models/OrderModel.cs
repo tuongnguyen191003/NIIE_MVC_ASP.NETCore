@@ -18,6 +18,7 @@ namespace MVC_FinalTerm.Models
         public string? Postcode { get; set; }
         public string? OtherNote { get; set; }
         public string PaymentMethod { get; set; }
+        public decimal TotalAmount { get; set; }
         public DateTime OrderDate { get; set; }
         // Thêm thuộc tính UserId
         public string UserId { get; set; }

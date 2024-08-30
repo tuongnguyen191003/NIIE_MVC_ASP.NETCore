@@ -1,0 +1,112 @@
+﻿@model IEnumerable<MVC_FinalTerm.Models.ProductModel>
+
+@if (Model != null && Model.Any())
+{
+    <div class="suggested_products">
+        @foreach (var item in Model)
+        {
+            <div class="product_suggestion">
+                <div class="product_image">
+                    <img src="~/frontend/images/products/@item.Image" alt="@item.Name" />
+                </div>
+                <div class="product_details">
+                    <h5 class="product_name">
+                        <a href="@Url.Action("Details", "Product", new { id = item.Id })">@item.Name</a>
+                    </h5>
+                    <div class="product_price">
+                        <span class="current_price">@item.Price.ToString("N0")</span>
+                        @if (item.OldPrice > item.Price)
+                        {
+                            <del class="old_price">@item.OldPrice.ToString("N0")</del>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Not product found</p>
+}
+
+
+<style>
+    .suggested_products {
+        padding: 10px;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+        .suggested_products h4 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    .product_suggestion {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid #ddd;
+    }
+
+        .product_suggestion:last-child {
+            border-bottom: none;
+        }
+
+    .product_image img {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .product_details {
+        flex-grow: 1;
+    }
+
+    .product_name {
+        font-size: 14px;
+        margin: 0;
+    }
+
+        .product_name a {
+            text-decoration: none;
+            color: #333;
+        }
+
+    .product_price {
+        margin-top: 5px;
+        color: #d0021b;
+        font-weight: bold;
+    }
+
+        .product_price .old_price {
+            margin-left: 10px;
+            color: #999;
+            text-decoration: line-through;
+            font-weight: normal;
+        }
+
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('#search-input').on('input', function () {
+            var keyword = $(this).val();
+            if (keyword.length > 2) {
+                $.ajax({
+                    url: '@Url.Action("QuickSearch", "Home")',
+                    data: { searchTerm: keyword },
+                    success: function (data) {
+                        $('#search-results').html(data);
+                    }
+                });
+            } else {
+                $('#search-results').empty();
+            }
+        });
+    });
+
+</script>

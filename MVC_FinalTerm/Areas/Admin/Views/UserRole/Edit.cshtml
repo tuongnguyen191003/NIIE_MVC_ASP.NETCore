@@ -1,0 +1,49 @@
+﻿@model MVC_FinalTerm.Models.ViewModels.UserRoleViewModel
+
+@{
+    ViewData["Title"] = "Edit User Roles";
+    Layout = "_Layout";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="page-header">Edit User Roles</h1>
+            <form asp-action="Edit" method="post" asp-route-userId="@Model.UserId" asp-route-roleId="@Model.RoleId">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="UserId" value="@Model.UserId" />
+                <input type="hidden" asp-for="RoleId" value="@Model.RoleId" />
+
+                <div class="form-group row">
+                    <label asp-for="UserId" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input asp-for="UserId" class="form-control" readonly />
+                        <span asp-validation-for="UserId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label asp-for="RoleId" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <select asp-for="RoleId" class="form-control" asp-items="@Model.AvailableRoles"></select>
+                        <span asp-validation-for="RoleId" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-10 offset-sm-2">
+                        <input type="submit" value="Update Role" class="btn btn-primary" />
+                        <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Khởi tạo Select2 cho dropdown
+        $('select').select2();
+    });
+</script>

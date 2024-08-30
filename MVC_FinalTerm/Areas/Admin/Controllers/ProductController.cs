@@ -233,25 +233,32 @@ namespace MVC_FinalTerm.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "frontend/images/products");
-            string oldFileImage = Path.Combine(uploadDir, product.Image);
 
-            try
+            string uploadDir = Path.Combine(_webHostEnvironment.WebRootPath, "frontend/images/products");
+
+            // Xóa hình ảnh nếu có
+            if (!string.IsNullOrEmpty(product.Image))
             {
-                if (System.IO.File.Exists(oldFileImage))
+                string oldFileImage = Path.Combine(uploadDir, product.Image);
+
+                try
                 {
-                    System.IO.File.Delete(oldFileImage);
+                    if (System.IO.File.Exists(oldFileImage))
+                    {
+                        System.IO.File.Delete(oldFileImage);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "An error occurred while deleting the product image");
                 }
             }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", "An error occured while deleting the product image");
-            }
 
-
+            // Xóa sản phẩm khỏi database
             _context.Products.Remove(product);
             await _context.SaveChangesAsync();
-            TempData["error"] = "Deleted successfully";
+
+            TempData["success"] = "Deleted successfully"; // Sử dụng TempData["success"] cho thông báo thành công
             return RedirectToAction("Index");
         }
     }

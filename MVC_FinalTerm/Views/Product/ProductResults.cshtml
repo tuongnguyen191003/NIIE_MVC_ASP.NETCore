@@ -1,0 +1,19 @@
+﻿@model IEnumerable<MVC_FinalTerm.Models.ProductModel>
+
+<div class="product-results">
+    <h2>Kết quả tìm kiếm</h2>
+    <div class="product-list">
+        @foreach (var item in Model)
+        {
+            <div class="product-item">
+                <a href="@Url.Action("Details", "Product", new { id = item.Id })">
+                    <img src="~/frontend/images/products/@item.Image" alt="@item.Name" />
+                    <div class="product-info">
+                        <span class="product-name">@item.Name</span>
+                        <span class="product-price">@item.Price.ToString("N0") VND</span>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+</div>
