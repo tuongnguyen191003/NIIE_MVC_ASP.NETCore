@@ -4,8 +4,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVC_FinalTerm.Models;
 using MVC_FinalTerm.Repository.DataContext;
+using sib_api_v3_sdk.Client;
 
 var builder = WebApplication.CreateBuilder(args);
+sib_api_v3_sdk.Client.Configuration.Default.ApiKey.Add("api-key", builder.Configuration["BrevoApi:ApiKey"]);
+
+
+
 
 
 // Add services to the container.
@@ -116,6 +121,8 @@ app.MapControllerRoute(
     name: "brand",
     pattern: "/brand/{Slug?}",
     defaults: new { controller = "Brand", action = "Index" });
+
+
 
 
 

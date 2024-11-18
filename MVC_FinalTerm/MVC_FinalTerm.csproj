@@ -39,6 +39,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Select2.js" Version="4.0.13" />
+    <PackageReference Include="sib_api_v3_sdk" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>

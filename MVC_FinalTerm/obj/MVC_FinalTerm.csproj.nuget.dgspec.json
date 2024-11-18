@@ -100,6 +100,10 @@
             "Select2.js": {
               "target": "Package",
               "version": "[4.0.13, )"
+            },
+            "sib_api_v3_sdk": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             }
           },
           "imports": [

@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,22 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAwNsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T15:19:55.227Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -69,45 +38,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAADwvz0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T13:58:14.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\appsettings.json",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
-              "RelativeToolTip": "MVC_FinalTerm\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T13:26:12.095Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Program.cs",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Program.cs",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Program.cs",
-              "RelativeToolTip": "MVC_FinalTerm\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:25:55.549Z",
-              "EditorCaption": ""
             }
           ]
         }
