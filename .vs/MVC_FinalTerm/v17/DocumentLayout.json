@@ -1,22 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\",
+  "WorkspaceRootPath": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\services\\vnpay\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\services\\vnpay\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\libraries\\vnpaylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\vnpay\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\vnpay\\paymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\kunph\\onedrive\\ta\u0300i li\u00EA\u0323u\\m\u00E1y t\u00EDnh\\jj\\niie_mvc_asp.netcore\\mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\tai16\\onedrive\\desktop\\aws\\niie_mvc_asp.netcore\\mvc_finalterm\\models\\vnpay\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\vnpay\\paymentinformationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\services\\momo\\momoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\services\\momo\\momoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\tai16\\onedrive\\desktop\\aws\\niie_mvc_asp.netcore\\mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\cartitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|c:\\users\\tai16\\onedrive\\desktop\\aws\\niie_mvc_asp.netcore\\mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\checkoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\repository\\datacontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\repository\\datacontext\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\momo\\momocreatepaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\momo\\momocreatepaymentresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\momo\\momooptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\momo\\momooptionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\momo\\momoexecuteresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\momo\\momoexecuteresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\myorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\momoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\momoinfomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\orderinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\orderinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\checkoutviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\viewmodels\\accountviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\account\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\repository\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\repository\\seed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\models\\appusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\models\\appusermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\checkout\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{21994E09-CB0C-4D34-AE2E-2E59F787E0C0}|MVC_FinalTerm\\MVC_FinalTerm.csproj|solutionrelative:mvc_finalterm\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,88 +130,378 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAwNsAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T15:19:55.227Z",
+              "DocumentIndex": 0,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Services\\VnPay\\VnPayService.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Services\\VnPay\\VnPayService.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Services\\VnPay\\VnPayService.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Services\\VnPay\\VnPayService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T11:27:20.855Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CartItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\CartItemViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:20:54.133Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAADwvz0AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T13:58:14.614Z",
+              "DocumentIndex": 6,
+              "Title": "MomoService.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Services\\Momo\\MomoService.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Services\\Momo\\MomoService.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Services\\Momo\\MomoService.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Services\\Momo\\MomoService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAiwEMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:50:55.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VnPayLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Libraries\\VnPayLibrary.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Libraries\\VnPayLibrary.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Libraries\\VnPayLibrary.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Libraries\\VnPayLibrary.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAswCMAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T12:46:10.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\appsettings.json",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
-              "RelativeToolTip": "MVC_FinalTerm\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T13:26:12.095Z",
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:08:11.769Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Program.cs",
-              "RelativeDocumentMoniker": "MVC_FinalTerm\\Program.cs",
-              "ToolTip": "C:\\Users\\kunph\\OneDrive\\Ta\u0300i li\u00EA\u0323u\\M\u00E1y t\u00EDnh\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Program.cs",
-              "RelativeToolTip": "MVC_FinalTerm\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PaymentResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\VnPay\\PaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\VnPay\\PaymentResponseModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\VnPay\\PaymentResponseModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\VnPay\\PaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:25:55.549Z",
+              "WhenOpened": "2024-12-08T14:21:43.375Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CheckoutController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\CheckoutController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAPkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T03:16:40.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Checkout\\Index.cshtml",
+              "ViewState": "AQIAALMAAAAAAAAAAADwv8oAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T02:51:38.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\appsettings.json",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\appsettings.json",
+              "RelativeToolTip": "MVC_FinalTerm\\appsettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAcwCEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-09T13:53:15.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PaymentInformationModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\VnPay\\PaymentInformationModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\VnPay\\PaymentInformationModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\VnPay\\PaymentInformationModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\VnPay\\PaymentInformationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:33:40.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Repository\\DataContext\\DataContext.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Repository\\DataContext\\DataContext.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Repository\\DataContext\\DataContext.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Repository\\DataContext\\DataContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA9wCIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:53:05.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MomoCreatePaymentResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\Momo\\MomoCreatePaymentResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:48:26.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MomoOptionModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoOptionModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\Momo\\MomoOptionModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoOptionModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\Momo\\MomoOptionModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:48:55.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MomoExecuteResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoExecuteResponseModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\Momo\\MomoExecuteResponseModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\Momo\\MomoExecuteResponseModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\Momo\\MomoExecuteResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:48:41.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\MyOrders.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T03:41:34.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MomoInfoModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\MomoInfoModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\MomoInfoModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\MomoInfoModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\MomoInfoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T14:20:14.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OrderInfo.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\OrderInfo.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\OrderInfo.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\OrderInfo.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\OrderInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T13:49:33.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CheckoutViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\CheckoutViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T09:11:46.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\RoleController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwE8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:32:48.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BrandController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Controllers\\BrandController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T13:32:40.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAMUAAAAAAAAAAAAAwNsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T15:19:55.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAGcBAAAAAAAAAAAowHEBAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:09:45.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\OrderModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\OrderModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\OrderModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\OrderModel.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:50:41.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\ViewModels\\AccountViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:12:14.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Account\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Account\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Account\\EditProfile.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Account\\EditProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T03:11:59.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Repository\\Seed\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Repository\\Seed\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Repository\\Seed\\DataSeeder.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Repository\\Seed\\DataSeeder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T03:05:08.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Checkout\\Success.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Checkout\\Success.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Checkout\\Success.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Checkout\\Success.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T08:58:54.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AppUserModel.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\AppUserModel.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Models\\AppUserModel.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Models\\AppUserModel.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Models\\AppUserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T03:13:01.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Controllers\\CartController.cs",
+              "RelativeToolTip": "MVC_FinalTerm\\Controllers\\CartController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwBYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T08:40:53.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_FinalTerm\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAADwvz0AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T13:58:14.614Z"
             }
           ]
         }

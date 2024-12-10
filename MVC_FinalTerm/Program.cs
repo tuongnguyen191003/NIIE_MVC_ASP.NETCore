@@ -3,11 +3,15 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MVC_FinalTerm.Models;
+using MVC_FinalTerm.Models.Momo;
 using MVC_FinalTerm.Repository.DataContext;
+using MVC_FinalTerm.Service.Momo;
+using MVC_FinalTerm.Services.VnPay;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("MomoAPi"));
+builder.Services.AddScoped<IMomoService, MomoService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -73,7 +77,13 @@ builder.Services.ConfigureApplicationCookie(options =>
         return Task.CompletedTask;
     };
 });
+builder.Services.AddSingleton(x => new MVC_FinalTerm.Helper.PaypalClient(
+    builder.Configuration["PayPalOptions:AppId"],
+      builder.Configuration["PayPalOptions:AppSecret"],
+        builder.Configuration["PayPalOptions:Mode"]
+    ));
 
+builder.Services.AddScoped<IVnPayService, VnPayService>();
 var app = builder.Build();
 app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
 

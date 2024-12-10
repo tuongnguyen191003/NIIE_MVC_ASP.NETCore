@@ -19,7 +19,8 @@ using Microsoft.EntityFrameworkCore;
             public DbSet<ProductModel> Products { get; set; }
             public DbSet<RamModel> Rams { get; set; }
             public DbSet<RomModel> Roms { get; set; }
-            //public DbSet<SeriesModel> Series { get; set; }
+            public DbSet<MomoInfoModel> MomoInfoModels { get; set; }
+        //public DbSet<SeriesModel> Series { get; set; }
             public DbSet<BannerModel> Banners { get; set; }
             public DbSet<ReviewModel> Reviews { get; set; }
             public DbSet<DetailDescription> DetailDescriptions { get; set; }

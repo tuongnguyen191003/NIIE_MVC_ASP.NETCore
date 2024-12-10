@@ -25,8 +25,8 @@
                         <td>@order.Id</td>
                         <td>@order.OrderDate.ToString("MM/dd/yyyy")</td>
                         <td>@order.PaymentMethod</td>
-                        <td>@order.OrderDetails.Count()</td>
-                        <td>@order.OrderDetails.Sum(od => od.Price * od.Quantity).ToString("C")</td>
+@*                         <td>@order.OrderDetails.Count()</td>
+                        <td>@order.OrderDetails.Sum(od => od.Price * od.Quantity).ToString("C")</td> *@
                         <td>
                             <a asp-controller="Account" asp-action="OrderDetails" asp-route-id="@order.Id" class="btn btn-primary">View Details</a>
                         </td>

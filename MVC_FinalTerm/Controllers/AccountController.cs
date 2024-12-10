@@ -67,7 +67,12 @@ namespace MVC_FinalTerm.Controllers
             return View(signupVM);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> ShowAdress (AppUserModel appUser)
+        {
 
+            return View(appUser);
+        }
 
         [HttpGet]
         public IActionResult Login()

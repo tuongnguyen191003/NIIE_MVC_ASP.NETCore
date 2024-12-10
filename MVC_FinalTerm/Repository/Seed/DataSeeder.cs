@@ -9,7 +9,7 @@ namespace MVC_FinalTerm.Repository.DataContext
         
         public static void SeedingData(DataContext _context)
         {
-            _context.Database.Migrate();
+            
             if (!_context.Brands.Any())
             {
                 // Thêm Brands

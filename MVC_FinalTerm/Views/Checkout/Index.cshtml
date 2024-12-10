@@ -178,9 +178,19 @@ else
                         </li>
                         <li>
                             <div class="radio_item">
-                                <input id="vnpay" type="radio" name="PaymentMethod" value="VNPay">
-                                <label for="vnpay">VN Pay</label>
-                            </div>
+                                <label>
+                                    <input type="radio" name="PaymentMethod" value="PaypalOrder" data-order-id="@TempData["OrderId"]"> PayPal
+                                </label>
+                                <div id="paypal-button-container" style="display: none; margin-top: 20px;"></div>
+                            </div
+                        </li>
+                        <li>
+                            <div class="radio_item">
+                                <label>
+                                    <input type="radio" name="PaymentMethod" value="PaypalOrder" data-order-id="@TempData["OrderId"]"> PayPal
+                                </label>
+                                <div id="paypal-button-container" style="display: none; margin-top: 20px;"></div>
+                            </div
                         </li>
                     </ul>
                 </div>
@@ -188,7 +198,64 @@ else
                     <button type="submit" class="btn btn_primary w-100">Place Order</button>
                 </div>
             </form>
+        <td>
+    <form method="POST" asp-action="CreatePaymentUrlVnpay" asp-controller="Payment">
+        <input type="hidden" name="Name" value="@User.Identity.Name" />
+        <input type="hidden" name="Amount" value="@Model.GrandTotal" />
+        <input type="hidden" name="OrderDescription" value="CycberCore" />
+        <input type="hidden" name="OrderType" value="other" />
+        <button class="btn btn-success" type="submit">Pay with VnPay</button>
+    </form>
+   <td>
+                        <form method="POST" asp-action="CreatePaymentUrl" asp-controller="Payment">
+                             <input type="hidden" name="Amount" value="@Model.GrandTotal" />
+                            <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" />
+                             <input type="hidden" name="OrderInfo" value="Thanh Toán Momo cho CycberCore" />
+                            <input type="hidden" name="FullName" value="CycberCore Store" />
+                            <button class="btn btn-danger" name="PayUrl" type="submit">Pay with Momo</button>
+                        </form>
+                    </td>
         </div>
     </section>
+
 }
+@section Scripts {
+
+		<script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
+		<script>
+              document.querySelectorAll('input[name="PaymentMethod"]').forEach(radio => {
+            radio.addEventListener('change', function () {
+                const paypalButtonContainer = document.getElementById('paypal-button-container');
+                paypalButtonContainer.style.display = this.value === "PaypalOrder" ? 'block' : 'none';
+            });
+        });
+			paypal.Buttons({
+				style: {
+					disableMaxWidth: true
+				},
+				createOrder: (data, actions) => {
+					return fetch("/Checkout/PaypalOrder", {
+						method: "post",
+					}).then((response) => {
+						if (!response.ok) {
+							return response.json().then(error => { throw error; });
+						}
+
+						return response.json();
+					}).then((order) => order.id)
+						.catch(error => alert(error.message));
+				},
+				onApprove: (data, actions) => {
+					return fetch(`/Checkout/PaypalCapture?orderId=${data.orderID}`, {
+						method: "post",
+					}).then((response) => {
+						if (!response.ok) {
+							return response.json().then(error => { throw error; });
+						}
+						window.location.href = "/Checkout/Success";
+					}).catch(error => alert(error.message));
+				}
+			}).render('#paypal-button-container');
+		</script>
+        }
 <!-- checkout_section - end -->

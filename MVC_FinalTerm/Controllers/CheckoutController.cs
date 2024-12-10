@@ -2,10 +2,14 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MVC_FinalTerm.Helper;
 using MVC_FinalTerm.Models;
 using MVC_FinalTerm.Models.ViewModels;
 using MVC_FinalTerm.Repository.DataContext;
 using MVC_FinalTerm.Repository.Sessions;
+using MVC_FinalTerm.Service.Momo;
+using MVC_FinalTerm.Services.VnPay;
+using System.Security.Claims;
 
 namespace MVC_FinalTerm.Controllers
 {
@@ -13,11 +17,17 @@ namespace MVC_FinalTerm.Controllers
     public class CheckoutController : Controller
     {
         private readonly UserManager<AppUserModel> _userManager;
+        private readonly PaypalClient _paypalClient;
         private readonly DataContext _dataContext;
-        public CheckoutController(DataContext dataContext, UserManager<AppUserModel> userManager)
+        private readonly IVnPayService _vnPayService;
+        private readonly IMomoService _momoService;
+        public CheckoutController(DataContext dataContext, UserManager<AppUserModel> userManager, PaypalClient paypalClient, IVnPayService vnPayService, IMomoService momoService)
         {
+            _paypalClient = paypalClient;
             _dataContext = dataContext;
             _userManager = userManager;
+            _vnPayService = vnPayService;
+            _momoService = momoService;
         }
         public IActionResult Index()
         {
@@ -35,7 +45,7 @@ namespace MVC_FinalTerm.Controllers
             var firstName = fullNameParts?.FirstOrDefault();
             var lastName = fullNameParts?.Skip(1).FirstOrDefault();
 
-            
+
             // Tạo CheckoutViewModel
             CheckoutViewModel checkoutVM = new CheckoutViewModel()
             {
@@ -49,9 +59,110 @@ namespace MVC_FinalTerm.Controllers
                 Email = user.Email,
                 Telephone = user.PhoneNumber
             };
+            ViewBag.PaypalClientId = "ARbnxJTLtxb0Wruyhkx1NxF99RproEX0R-xncYpGXNzHv9ZqNhRwxMnt-Dp7flNFOUfrU4ckDDexMV9h";
 
             return View(checkoutVM);
+
         }
+        [HttpPost]
+        public async Task<IActionResult> PaypalOrder(CancellationToken cancellationToken)
+        {
+            List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            // Tạo đơn hàng (thông tin lấy từ Session???)
+            var tongTien = cartItems.Sum(p => p.Total).ToString();
+            var donViTienTe = "USD";
+            // OrderId - mã tham chiếu (duy nhất)
+            var orderIdref = "DH" + DateTime.Now.Ticks.ToString();
+
+            try
+            {
+                // a. Create paypal order
+                var response = await _paypalClient.CreateOrder(tongTien, donViTienTe, orderIdref);
+
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                var error = new
+                {
+                    e.GetBaseException().Message
+                };
+
+                return BadRequest(error);
+            }
+        }
+        public async Task<IActionResult> PaypalCapture(string orderId, CancellationToken cancellationToken, EditProfileViewModel model)
+        {
+            List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+            {
+                try
+                {
+                    var response = await _paypalClient.CaptureOrder(orderId);
+                    var user = await _userManager.GetUserAsync(User);
+                    //nhớ kiểm tra status complete
+                    if (response.status == "COMPLETED")
+                    {
+                        var reference = response.purchase_units[0].reference_id;//mã đơn hàng mình tạo ở trên
+                        var transactionId = response.purchase_units[0]?.payments?.captures?.FirstOrDefault()?.id ?? string.Empty;
+                        // Put your logic to save the transaction here
+                        // You can use the "reference" variable as a transaction key
+                        // 1. Tạo và Lưu đơn hàng vô database
+                        // TransactionId của Seller: response.payments.captures[0].id
+                        var hoaDon = new OrderModel
+                        {
+                            FullName = user.FullName,
+                            Address = user.Address, // Cần thay đổi nếu có thông tin address thực tế
+                            Email = user.Email ?? string.Empty,
+                            Telephone = user.PhoneNumber ?? string.Empty,
+                            PaymentMethod = "PayPal",
+                            OrderDate = DateTime.Now,
+                            UserId = user.Id,
+                            TotalAmount = cartItems.Sum(x => x.Quantity * x.Price),
+                            Note = $"reference_id={reference}, transactionId={transactionId}",
+                            OrderDetails = new List<OrderDetails>()
+                        };
+                        _dataContext.Add(hoaDon);
+                        _dataContext.SaveChanges();
+                        foreach (var item in cartItems)
+                        {
+                            var orderDetails = new OrderDetails
+                            {
+                                OrderId = hoaDon.Id,
+                                ProductId = item.ProductId,
+                                ProductName = item.ProductName ?? "Unknown",
+                                Price = item.Price,
+                                Quantity = item.Quantity,
+                                Discount = item.Discount
+                            };
+                            _dataContext.Add(orderDetails);
+                        }
+                        _dataContext.SaveChanges();
+                        //2. Xóa session giỏ hàng
+                        //HttpContext.Session.Set(CART_KEY, new List<>());
+
+                        return Ok(response);
+                    }
+                    else
+                    {
+                        return BadRequest(new { Message = "Có lỗi thanh toán" });
+                    }
+                }
+                catch (Exception e)
+                {
+                    var error = new
+                    {
+                        e.GetBaseException().Message
+                    };
+
+                    return BadRequest(error);
+                }
+            }
+        }
+        public IActionResult Success()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> PlaceOrder(CheckoutViewModel model)
         {
@@ -134,5 +245,44 @@ namespace MVC_FinalTerm.Controllers
 
             return View(order);
         }
+        [HttpGet]
+        public IActionResult PaymentCallbackVnpay()
+        {
+            var response = _vnPayService.PaymentExecute(Request.Query);
+
+            return Json(response);
+        }
+        [HttpGet]
+        public async Task<IActionResult> PaymentCallBack(MomoInfoModel model)
+        {
+            var response = _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
+            var requestQuery = HttpContext.Request.Query;
+            if (requestQuery["resultCode"] != 0)
+            {
+                var NewMomoInsert = new MomoInfoModel
+                {
+                    OrderId = requestQuery["orderId"],
+                    FullName = User.FindFirstValue(ClaimTypes.Email),
+                    Amount = decimal.Parse(requestQuery["Amount"]),
+                    OrderInfo = requestQuery["orderInfo"],
+                    DatePaid = DateTime.Now,
+                };
+                _dataContext.Add(NewMomoInsert);
+                await _dataContext.SaveChangesAsync();
+
+            }
+            else
+            {
+                TempData["success"] = "Da huy giao dich Momo";
+                return RedirectToAction("Index", "Cart");
+            }
+            //var checkoutResult = await Checkout(requestQuery["orderId"]);
+            return View(response);
+        }
+
+
+
     }
+
+
 }

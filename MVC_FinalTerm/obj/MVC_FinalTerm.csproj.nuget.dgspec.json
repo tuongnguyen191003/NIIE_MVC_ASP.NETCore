@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kunph\\OneDrive\\Tài liệu\\Máy tính\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj": {}
+    "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kunph\\OneDrive\\Tài liệu\\Máy tính\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj": {
+    "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kunph\\OneDrive\\Tài liệu\\Máy tính\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj",
+        "projectUniqueName": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj",
         "projectName": "MVC_FinalTerm",
-        "projectPath": "C:\\Users\\kunph\\OneDrive\\Tài liệu\\Máy tính\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj",
-        "packagesPath": "C:\\Users\\kunph\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kunph\\OneDrive\\Tài liệu\\Máy tính\\jj\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\obj\\",
+        "projectPath": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\MVC_FinalTerm.csproj",
+        "packagesPath": "C:\\Users\\tai16\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kunph\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tai16\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,6 +97,10 @@
               "target": "Package",
               "version": "[13.0.3, )"
             },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[112.1.0, )"
+            },
             "Select2.js": {
               "target": "Package",
               "version": "[4.0.13, )"
@@ -121,7 +125,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

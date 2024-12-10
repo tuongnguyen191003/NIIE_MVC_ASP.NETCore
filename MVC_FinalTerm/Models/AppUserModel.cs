@@ -10,5 +10,6 @@ namespace MVC_FinalTerm.Models
         public string? Address { get; set; }
         public string? City { get; set; }
         public string? ProfileImage { get; set; } // Path to the profile image
+        
     }
 }
