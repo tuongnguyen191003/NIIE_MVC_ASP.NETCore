@@ -55,7 +55,6 @@ namespace MVC_FinalTerm.Controllers
                 FirstName = firstName,
                 LastName = lastName,
                 Address = user.Address,
-                Town = user.City,
                 Email = user.Email,
                 Telephone = user.PhoneNumber
             };
@@ -110,6 +109,8 @@ namespace MVC_FinalTerm.Controllers
                         // TransactionId của Seller: response.payments.captures[0].id
                         var hoaDon = new OrderModel
                         {
+                            FirstName = user.Email,
+                            LastName = user.Email,
                             FullName = user.FullName,
                             Address = user.Address, // Cần thay đổi nếu có thông tin address thực tế
                             Email = user.Email ?? string.Empty,
@@ -118,7 +119,8 @@ namespace MVC_FinalTerm.Controllers
                             OrderDate = DateTime.Now,
                             UserId = user.Id,
                             TotalAmount = cartItems.Sum(x => x.Quantity * x.Price),
-                            Note = $"reference_id={reference}, transactionId={transactionId}",
+                            Note = $"reference_id={"PayPal"}, transactionId={"PayPal"}",
+                            TransactionId = "PayPal",
                             OrderDetails = new List<OrderDetails>()
                         };
                         _dataContext.Add(hoaDon);
@@ -189,15 +191,17 @@ namespace MVC_FinalTerm.Controllers
             {
                 FirstName = model.FirstName,
                 LastName = model.LastName,
+                FullName = user.FullName,
                 Address = model.Address,
-                Town = model.Town,
                 Email = model.Email,
                 Telephone = model.Telephone,
                 PaymentMethod = model.PaymentMethod,
                 OrderDate = DateTime.Now,
-                UserId = user.Id ,// Liên kết đơn hàng với người dùng
+                UserId = user.Id,// Liên kết đơn hàng với người dùng
                 OrderDetails = new List<OrderDetails>(),
-                TotalAmount = totalAmount // Gán TotalAmount
+                TotalAmount = totalAmount, // Gán TotalAmount
+                Note = $"reference_id={"COD"}, transactionId={"COD"}",
+                TransactionId = "COD",
             };
 
             // Thêm đơn hàng vào cơ sở dữ liệu
@@ -253,24 +257,56 @@ namespace MVC_FinalTerm.Controllers
             return Json(response);
         }
         [HttpGet]
-        public async Task<IActionResult> PaymentCallBack(MomoInfoModel model)
+        public async Task<IActionResult> PaymentCallBack(CheckoutViewModel model)
         {
             var response = _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
             var requestQuery = HttpContext.Request.Query;
+            var user = await _userManager.GetUserAsync(User);
+            List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
             if (requestQuery["resultCode"] != 0)
             {
-                var NewMomoInsert = new MomoInfoModel
+                var order = new OrderModel
                 {
-                    OrderId = requestQuery["orderId"],
-                    FullName = User.FindFirstValue(ClaimTypes.Email),
-                    Amount = decimal.Parse(requestQuery["Amount"]),
-                    OrderInfo = requestQuery["orderInfo"],
-                    DatePaid = DateTime.Now,
+                    FirstName = user.Email,
+                    LastName = user.Email,
+                    FullName = user.FullName,
+                    Address = user.Address, // Cần thay đổi nếu có thông tin address thực tế
+                    Email = user.Email ?? string.Empty,
+                    Telephone = user.PhoneNumber ?? string.Empty,
+                    PaymentMethod = "Momo",
+                    OrderDate = DateTime.Now,
+                    UserId = user.Id,
+                    TotalAmount = cartItems.Sum(x => x.Quantity * x.Price),
+                    Note = $"reference_id={"PayPal"}, transactionId={"PayPal"}",
+                    TransactionId = "PayPal",
+                    OrderDetails = new List<OrderDetails>()
                 };
-                _dataContext.Add(NewMomoInsert);
+                _dataContext.Add(order);
+                await _dataContext.SaveChangesAsync();
+                foreach (var item in cartItems)
+                {
+                    OrderDetails orderDetails = new OrderDetails()
+                    {
+                        OrderId = order.Id,
+                        ProductId = item.ProductId,
+                        ProductName = item.ProductName,
+                        Price = item.Price,
+                        Quantity = item.Quantity,
+                        Discount = item.Discount
+                    };
+
+                    order.OrderDetails.Add(orderDetails); // Thêm chi tiết vào danh sách
+                    _dataContext.OrderDetails.Add(orderDetails);
+                }
                 await _dataContext.SaveChangesAsync();
 
+                // Xóa giỏ hàng sau khi thanh toán
+                HttpContext.Session.Remove("Cart");
+                // Thiết lập thông báo thành công
+                TempData["success"] = "Your order has been placed successfully!";
+
             }
+
             else
             {
                 TempData["success"] = "Da huy giao dich Momo";
