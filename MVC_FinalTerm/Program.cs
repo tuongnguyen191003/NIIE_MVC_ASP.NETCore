@@ -6,7 +6,9 @@ using MVC_FinalTerm.Models;
 using MVC_FinalTerm.Models.Momo;
 using MVC_FinalTerm.Repository.DataContext;
 using MVC_FinalTerm.Service.Momo;
+using MVC_FinalTerm.Service.VnPay;
 using MVC_FinalTerm.Services.VnPay;
+using sib_api_v3_sdk.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,7 @@ builder.Services.Configure<MomoOptionModel>(builder.Configuration.GetSection("Mo
 builder.Services.AddScoped<IMomoService, MomoService>();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+sib_api_v3_sdk.Client.Configuration.Default.ApiKey.Add("api-key", builder.Configuration["BrevoApi:ApiKey"]);
 
 builder.Services.AddDbContext<DataContext>(options =>
 {

@@ -10,7 +10,7 @@ namespace MVC_FinalTerm.Repository.DataContext
         public static void SeedingData(DataContext _context)
         {
             
-            if (!_context.Brands.Any())
+     
             {
                 // Thêm Brands
                 var brands = new List<BrandModel>
@@ -70,7 +70,7 @@ namespace MVC_FinalTerm.Repository.DataContext
                     new RomModel { Value = "2TB" }
                 };
                 _context.Roms.AddRange(roms);
-                _context.SaveChanges();
+
             }
         }
     }

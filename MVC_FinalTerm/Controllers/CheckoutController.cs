@@ -8,6 +8,7 @@ using MVC_FinalTerm.Models.ViewModels;
 using MVC_FinalTerm.Repository.DataContext;
 using MVC_FinalTerm.Repository.Sessions;
 using MVC_FinalTerm.Service.Momo;
+using MVC_FinalTerm.Service.VnPay;
 using MVC_FinalTerm.Services.VnPay;
 using System.Security.Claims;
 
@@ -250,12 +251,58 @@ namespace MVC_FinalTerm.Controllers
             return View(order);
         }
         [HttpGet]
-        public IActionResult PaymentCallbackVnpay()
+        public async Task<IActionResult> PaymentCallbackVnpay(CheckoutViewModel model)
         {
             var response = _vnPayService.PaymentExecute(Request.Query);
+            var requestQuery = HttpContext.Request.Query;
+            var user = await _userManager.GetUserAsync(User);
+            List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
+            if (response == null || response.VnPayResponseCode != "00")
+            {
+                TempData["Message"] = $"Lỗi thanh toán VN Pay: {response.VnPayResponseCode}";
+                return RedirectToAction("PaymentFail");
+            }
+            var Vnorder = new OrderModel
+            {
+                FirstName = user.Email,
+                LastName = user.Email,
+                FullName = user.FullName,
+                Address = user.Address, // Cần thay đổi nếu có thông tin address thực tế
+                Email = user.Email ?? string.Empty,
+                Telephone = user.PhoneNumber ?? string.Empty,
+                PaymentMethod = "VnPay",
+                OrderDate = DateTime.Now,
+                UserId = user.Id,
+                TotalAmount = cartItems.Sum(x => x.Quantity * x.Price),
+                Note = $"reference_id={"PayPal"}, transactionId={"PayPal"}",
+                TransactionId = "PayPal",
+                OrderDetails = new List<OrderDetails>()
+            };
+            _dataContext.Add(Vnorder);
+            await _dataContext.SaveChangesAsync();
+            foreach (var item in cartItems)
+            {
+                OrderDetails orderDetails = new OrderDetails()
+                {
+                    OrderId = Vnorder.Id,
+                    ProductId = item.ProductId,
+                    ProductName = item.ProductName,
+                    Price = item.Price,
+                    Quantity = item.Quantity,
+                    Discount = item.Discount
+                };
 
-            return Json(response);
+                Vnorder.OrderDetails.Add(orderDetails); // Thêm chi tiết vào danh sách
+                _dataContext.OrderDetails.Add(orderDetails);
+            }
+            await _dataContext.SaveChangesAsync();
+
+            // Lưu đơn hàng vô database
+
+            TempData["Message"] = $"Thanh toán VNPay thành công";
+            return RedirectToAction("PaymentSuccess");
         }
+    
         [HttpGet]
         public async Task<IActionResult> PaymentCallBack(CheckoutViewModel model)
         {
@@ -263,7 +310,7 @@ namespace MVC_FinalTerm.Controllers
             var requestQuery = HttpContext.Request.Query;
             var user = await _userManager.GetUserAsync(User);
             List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart");
-            if (requestQuery["resultCode"] != 0)
+            if (requestQuery["resultCode"] == 0)
             {
                 var order = new OrderModel
                 {

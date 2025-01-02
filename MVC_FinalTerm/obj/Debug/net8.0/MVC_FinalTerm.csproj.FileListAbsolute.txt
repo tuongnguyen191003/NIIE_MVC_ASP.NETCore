@@ -1446,3 +1446,7 @@ C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\obj\Debug
 C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\obj\Debug\net8.0\MVC_FinalTerm.genruntimeconfig.cache
 C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\obj\Debug\net8.0\ref\MVC_FinalTerm.dll
 C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\bin\Debug\net8.0\RestSharp.dll
+C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.Core.dll
+C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\bin\Debug\net8.0\FubarCoder.RestSharp.Portable.HttpClient.dll
+C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\bin\Debug\net8.0\JsonSubTypes.dll
+C:\Users\tai16\OneDrive\Desktop\AWS\NIIE_MVC_ASP.NETCore\MVC_FinalTerm\bin\Debug\net8.0\sib_api_v3_sdk.dll

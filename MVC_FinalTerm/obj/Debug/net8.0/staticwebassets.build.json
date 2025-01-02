@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PNyryfQVU+m1Yu477kacrNyYe50oWQN5E/S/F3STstc=",
+  "Hash": "w/DC/TYrLxtrIMgEecyilrk7hjVVmdLZMIBapyBGSIk=",
   "Source": "MVC_FinalTerm",
   "BasePath": "_content/MVC_FinalTerm",
   "Mode": "Default",
@@ -77801,6 +77801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\frontend\\images\\products\\29c5eb9b-4bb5-4c03-be99-670e96a6e507_0027973_blue_550.png"
+    },
+    {
+      "Identity": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\wwwroot\\frontend\\images\\products\\2c8c9172-4cb7-4727-bb42-1bb973c9ef5e_1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg",
+      "SourceId": "MVC_FinalTerm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\wwwroot\\",
+      "BasePath": "_content/MVC_FinalTerm",
+      "RelativePath": "frontend/images/products/2c8c9172-4cb7-4727-bb42-1bb973c9ef5e_1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\frontend\\images\\products\\2c8c9172-4cb7-4727-bb42-1bb973c9ef5e_1bd9ba6f-cbe0-4160-91aa-9847318fa791_0025500_blue_550.jpeg"
     },
     {
       "Identity": "C:\\Users\\tai16\\OneDrive\\Desktop\\AWS\\NIIE_MVC_ASP.NETCore\\MVC_FinalTerm\\wwwroot\\frontend\\images\\products\\2e284e50-0ec5-45a7-a1f1-38b3071e8c75_0025505_blue_550.jpeg",

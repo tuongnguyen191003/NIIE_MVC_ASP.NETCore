@@ -3,7 +3,12 @@
     public class CheckoutViewModel
     {
         public List<CartItemModel> CartItems { get; set; }
+        
         public decimal GrandTotal { get; set; }
+        public long GrandTotalInCents
+        {
+            get => (long)Math.Round(GrandTotal * 100, MidpointRounding.AwayFromZero);
+        }
 
         // Thông tin người dùng
         public string FirstName { get; set; }
@@ -20,5 +25,6 @@
 
         // Phương thức thanh toán
         public string PaymentMethod { get; set; }
+        public DateTime Createtime { get; set; } = DateTime.Now;
     }
 }

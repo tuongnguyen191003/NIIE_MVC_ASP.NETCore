@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVC_FinalTerm.Models;
-using MVC_FinalTerm.Models.VnPay;
+using MVC_FinalTerm.Models.ViewModels;
+
 using MVC_FinalTerm.Service.Momo;
 using MVC_FinalTerm.Services.VnPay;
 
@@ -31,13 +32,14 @@ namespace MVC_FinalTerm.Controllers
             var response = _momoService.PaymentExecuteAsync(HttpContext.Request.Query);
             return View(response);
         }
+     
+            [HttpPost]
+            public async Task<IActionResult> CreatePaymentUrlVnpay(VnPaymentRequestModel model)
+            {
 
-        [HttpPost]
-        public IActionResult CreatePaymentUrlVnpay(PaymentInformationModel model)
-        {
-            var url = _vnPayService.CreatePaymentUrl(model, HttpContext);
+                return Redirect(_vnPayService.CreatePaymentUrl(HttpContext, model));
+            }
 
-            return Redirect(url);
         }
 
 
@@ -45,5 +47,5 @@ namespace MVC_FinalTerm.Controllers
 
     }
 
-}
+
 

@@ -4,6 +4,10 @@
 @{
     ViewData["Title"] = "Checkout";
     Layout = "_Normal";
+    // Tạo giá trị OrderId ngẫu nhiên từ 1 đến 1000
+    var random = new Random();
+    var orderId = random.Next(1, 1001); // Sinh số từ 1 đến 1000
+
 }
 
 <!-- breadcrumb_section - start -->
@@ -199,14 +203,16 @@ else
                 </div>
             </form>
         <td>
-    <form method="POST" asp-action="CreatePaymentUrlVnpay" asp-controller="Payment">
-        <input type="hidden" name="Name" value="@User.Identity.Name" />
-        <input type="hidden" name="Amount" value="@Model.GrandTotal" />
-        <input type="hidden" name="OrderDescription" value="CycberCore" />
-        <input type="hidden" name="OrderType" value="other" />
-        <button class="btn btn-success" type="submit">Pay with VnPay</button>
-    </form>
-   <td>
+             <form method="POST" asp-action="CreatePaymentUrlVnpay" asp-controller="Payment">
+            <input type="hidden" name="Amount" value="@Model.GrandTotal" />
+                <input type="hidden" name="OrderId" value="@orderId" />
+            <input type="hidden" name="CreateDate" value=@Model.Createtime />
+            <input type="hidden" name="OrderInfo" value="Thanh Toán VNPay cho CyberCore" />
+            <input type="type" name="Description" value="Thanh toan VnPay" />
+            <input type="type" name="FullName" value="@Model.FullName" />
+            <button class="btn btn-success" type="submit">Pay with VNPay</button>
+           </form>
+        
                         <form method="POST" asp-action="CreatePaymentUrl" asp-controller="Payment">
                              <input type="hidden" name="Amount" value="@Model.GrandTotal" />
                             <input type="hidden" name="OrderId" value="@Guid.NewGuid().ToString()" />
@@ -257,5 +263,15 @@ else
 				}
 			}).render('#paypal-button-container');
 		</script>
-        }
+           <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/673355694304e3196ae0e6c2/1icg8b97s';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script> }
 <!-- checkout_section - end -->

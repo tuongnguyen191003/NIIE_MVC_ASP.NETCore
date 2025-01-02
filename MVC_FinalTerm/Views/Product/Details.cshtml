@@ -3,6 +3,11 @@
     ViewData["Title"] = "Details";
     Layout = "_Normal";
 }
+<meta property="og:title" content="@Model.Product.Name" />
+<meta property="og:description" content="@Model.Product.Description" />
+<meta property="og:url" content="@Url.Action("ProductDetail", "Product", new { id = Model.Product.Id })" />
+<meta property="og:image" content="@Url.Content("~/frontend/images/products/" + Model.Product.ProductImages.FirstOrDefault()?.Name ?? Model.Product.Image)" />
+<meta property="og:type" content="product" />
 @inject UserManager<AppUserModel> UserManager
 
 @{
@@ -86,6 +91,11 @@
                         <p>
                             @Model.Product.Description
                         </p>
+                        <div class="fb-share-button" 
+                         data-href="@Url.Action("ProductDetail", "Product", new { id = Model.Product.Id })" 
+                         data-layout="button_count">
+                            </div>
+                            <div class="sharethis-inline-share-buttons"></div>
                         <div class="item_review">
                             <ul class="rating_star ul_li">
                                 @for (int i = 1; i <= 5; i++)
@@ -446,9 +456,10 @@
         });
     });
 
+
 </script>
-
-
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="V6vYz3F4"></script>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=675b6ab2d5bedc001907e57d&product=inline-share-buttons&source=platform" async="async"></script>
 
 <style>
     .star-rating {
